@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  cell_num: MyString
+  attending: false
+
+two:
+  name: MyString
+  cell_num: MyString
+  attending: false
