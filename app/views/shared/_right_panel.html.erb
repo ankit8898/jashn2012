@@ -17,6 +17,8 @@
 		<a href="mailto:#">ankit.gupta8898@gmail.com</a>
 	</address>
 </div>
-<a href="#myModal" role="button" class="btn" data-toggle="modal">Launch demo modal</a>
+<div class="span2">
+	<a href="#myModal" role="button" class="btn btn-info" data-toggle="modal">Check attending list</a>
 </div>
-<%= render 'shared/attending_list' %>
+</div>
+<%= render 'shared/attending_list', :guests => @guests %>
