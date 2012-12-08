@@ -23,6 +23,8 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'thin'
+gem 'quiet_assets'
 
 group 'production' do
  gem 'pg'
