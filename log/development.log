@@ -40883,3 +40883,1487 @@ Served asset /avatar3.jpg - 304 Not Modified (0ms)
 
 Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2012-12-08 17:12:19 +0530
 Served asset /fontawesome-webfont.woff - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 17:54:10 +0530
+Connecting to database specified by database.yml
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (2.6ms)
+  Rendered guests/new.html.erb within layouts/application (25.1ms)
+Compiled bootstrap_and_overrides.css  (1177ms)  (pid 2248)
+Compiled application.css  (1217ms)  (pid 2248)
+Compiled jquery.js  (2ms)  (pid 2248)
+Compiled jquery_ujs.js  (0ms)  (pid 2248)
+Compiled twitter/bootstrap/bootstrap-transition.js  (0ms)  (pid 2248)
+Compiled twitter/bootstrap/bootstrap-alert.js  (0ms)  (pid 2248)
+Compiled twitter/bootstrap/bootstrap-modal.js  (0ms)  (pid 2248)
+Compiled twitter/bootstrap/bootstrap-dropdown.js  (0ms)  (pid 2248)
+Compiled twitter/bootstrap/bootstrap-scrollspy.js  (0ms)  (pid 2248)
+Compiled twitter/bootstrap/bootstrap-tab.js  (0ms)  (pid 2248)
+Compiled twitter/bootstrap/bootstrap-tooltip.js  (0ms)  (pid 2248)
+Compiled twitter/bootstrap/bootstrap-popover.js  (0ms)  (pid 2248)
+Compiled twitter/bootstrap/bootstrap-button.js  (0ms)  (pid 2248)
+Compiled twitter/bootstrap/bootstrap-collapse.js  (0ms)  (pid 2248)
+Compiled twitter/bootstrap/bootstrap-carousel.js  (0ms)  (pid 2248)
+Compiled twitter/bootstrap/bootstrap-typeahead.js  (0ms)  (pid 2248)
+Compiled twitter/bootstrap/bootstrap-affix.js  (0ms)  (pid 2248)
+Compiled twitter/bootstrap.js  (141ms)  (pid 2248)
+Compiled bootstrap.js  (70ms)  (pid 2248)
+Compiled guests.js  (1ms)  (pid 2248)
+Compiled application.js  (368ms)  (pid 2248)
+  Rendered shared/_top_carousel.html.erb (0.8ms)
+  Rendered shared/_attendee.html.erb (1.0ms)
+  Rendered shared/_right_panel.html.erb (2.6ms)
+Completed 200 OK in 2037ms (Views: 1885.5ms | ActiveRecord: 128.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 17:54:30 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (1.8ms)
+  Rendered guests/new.html.erb within layouts/application (2.5ms)
+  Rendered shared/_top_carousel.html.erb (0.6ms)
+  Rendered shared/_attendee.html.erb (0.7ms)
+  Rendered shared/_right_panel.html.erb (1.4ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 18:10:20 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (2.7ms)
+  Rendered guests/new.html.erb within layouts/application (3.9ms)
+  Rendered shared/_top_carousel.html.erb (0.4ms)
+  Rendered shared/_attendee.html.erb (0.2ms)
+  Rendered shared/_right_panel.html.erb (0.6ms)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 18:16:22 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (1.4ms)
+  Rendered guests/new.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 58ms
+
+ActionView::Template::Error (undefined local variable or method `‘favicon' for #<#<Class:0x007ffc12336f60>:0x007ffc166a46d0>):
+    2: <html>
+    3: <head>
+    4: 	<title>Jashn 2012</title>
+    5: 	<%= favicon_link_tag ‘favicon.ico’%>
+    6: 	<%= stylesheet_link_tag    "application", :media => "all" %>
+    7: 	<%= javascript_include_tag "application" %>
+    8: 	<%= csrf_meta_tags %>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2127980260218871116_70360342283780'
+  app/controllers/guests_controller.rb:29:in `new'
+
+
+  Rendered /Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 18:16:41 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (3.0ms)
+  Rendered guests/new.html.erb within layouts/application (4.2ms)
+  Rendered shared/_top_carousel.html.erb (0.3ms)
+  Rendered shared/_attendee.html.erb (0.1ms)
+  Rendered shared/_right_panel.html.erb (0.5ms)
+Completed 200 OK in 47ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2012-12-08 18:16:42 +0530
+Served asset /favicon.ico - 200 OK (4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 18:16:46 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (1.7ms)
+  Rendered guests/new.html.erb within layouts/application (2.2ms)
+  Rendered shared/_top_carousel.html.erb (0.4ms)
+  Rendered shared/_attendee.html.erb (0.2ms)
+  Rendered shared/_right_panel.html.erb (0.6ms)
+Completed 200 OK in 12ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 18:16:57 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (1.1ms)
+  Rendered guests/new.html.erb within layouts/application (1.6ms)
+  Rendered shared/_top_carousel.html.erb (0.3ms)
+  Rendered shared/_attendee.html.erb (0.2ms)
+  Rendered shared/_right_panel.html.erb (0.5ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 18:17:23 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (1.1ms)
+  Rendered guests/new.html.erb within layouts/application (1.7ms)
+  Rendered shared/_top_carousel.html.erb (0.4ms)
+  Rendered shared/_attendee.html.erb (0.5ms)
+  Rendered shared/_right_panel.html.erb (1.2ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2012-12-08 18:17:25 +0530
+Served asset /favicon.ico - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 18:26:06 +0530
+Connecting to database specified by database.yml
+Processing by GuestsController#new as HTML
+Filter chain halted as #<Proc:0x007f9544921180@/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_controller/metal/http_authentication.rb:112> rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 18:26:37 +0530
+Connecting to database specified by database.yml
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (3.6ms)
+  Rendered guests/new.html.erb within layouts/application (10.0ms)
+  Rendered shared/_top_carousel.html.erb (1.6ms)
+  Rendered shared/_attendee.html.erb (0.9ms)
+  Rendered shared/_right_panel.html.erb (2.4ms)
+Completed 200 OK in 295ms (Views: 133.6ms | ActiveRecord: 71.4ms)
+
+
+Started GET "/guests" for 127.0.0.1 at 2012-12-08 18:26:48 +0530
+Processing by GuestsController#index as HTML
+  [1m[36mGuest Load (245.9ms)[0m  [1mSELECT `guests`.* FROM `guests` [0m
+  Rendered guests/index.html.erb within layouts/application (8.2ms)
+  Rendered shared/_top_carousel.html.erb (0.5ms)
+  Rendered shared/_attendee.html.erb (0.2ms)
+  Rendered shared/_right_panel.html.erb (0.6ms)
+Completed 200 OK in 319ms (Views: 38.7ms | ActiveRecord: 245.9ms)
+
+
+Started GET "/guests/2" for 127.0.0.1 at 2012-12-08 18:26:56 +0530
+Processing by GuestsController#show as HTML
+  Parameters: {"id"=>"2"}
+Filter chain halted as #<Proc:0x007f929346dcf0@/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_controller/metal/http_authentication.rb:112> rendered or redirected
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/guests" for 127.0.0.1 at 2012-12-08 18:29:22 +0530
+Processing by GuestsController#index as HTML
+  [1m[35mGuest Load (0.3ms)[0m  SELECT `guests`.* FROM `guests` 
+  Rendered guests/index.html.erb within layouts/application (10.7ms)
+  Rendered shared/_top_carousel.html.erb (0.7ms)
+  Rendered shared/_attendee.html.erb (0.4ms)
+  Rendered shared/_right_panel.html.erb (1.2ms)
+Completed 200 OK in 30ms (Views: 27.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/guests" for 127.0.0.1 at 2012-12-08 18:29:27 +0530
+Processing by GuestsController#index as HTML
+  [1m[36mGuest Load (0.3ms)[0m  [1mSELECT `guests`.* FROM `guests` [0m
+  Rendered guests/index.html.erb within layouts/application (7.6ms)
+  Rendered shared/_top_carousel.html.erb (0.5ms)
+  Rendered shared/_attendee.html.erb (0.2ms)
+  Rendered shared/_right_panel.html.erb (0.6ms)
+Completed 200 OK in 23ms (Views: 20.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2012-12-08 18:29:28 +0530
+Served asset /favicon.ico - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 18:31:42 +0530
+Connecting to database specified by database.yml
+
+SyntaxError (/Users/ankitgupta/Documents/Projects/jash2012/app/controllers/guests_controller.rb:4: syntax error, unexpected ':', expecting keyword_end
+...IG['credentials']['username'] :password => AUTH_CONFIG['cred...
+...                               ^
+/Users/ankitgupta/Documents/Projects/jash2012/app/controllers/guests_controller.rb:4: syntax error, unexpected tASSOC, expecting tCOLON2 or '[' or '.'
+...tials']['password'], :except => [:index, :new]
+...                               ^):
+  activesupport (3.2.9) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.9) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.9) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.9) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.9) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.9) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.9) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.9) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.9) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.9) lib/active_support/inflector/methods.rb:230:in `block in constantize'
+  activesupport (3.2.9) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.9) lib/active_support/inflector/methods.rb:229:in `constantize'
+  activesupport (3.2.9) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.9) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.9) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.9) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.9) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.9) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.9) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.9) lib/active_support/callbacks.rb:405:in `_run__1402717977424705009__call__239095750719744304__callbacks'
+  activesupport (3.2.9) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.9) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.9) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.9) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (25.4ms)
+  Rendered /Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (35.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 18:32:19 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (2.9ms)
+  Rendered guests/new.html.erb within layouts/application (33.5ms)
+  Rendered shared/_top_carousel.html.erb (1.7ms)
+  Rendered shared/_attendee.html.erb (1.1ms)
+  Rendered shared/_right_panel.html.erb (2.7ms)
+Completed 200 OK in 176ms (Views: 90.2ms | ActiveRecord: 58.6ms)
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2012-12-08 18:32:20 +0530
+Served asset /favicon.ico - 304 Not Modified (1ms)
+
+
+Started GET "/guests/2" for 127.0.0.1 at 2012-12-08 18:32:27 +0530
+Processing by GuestsController#show as HTML
+  Parameters: {"id"=>"2"}
+Filter chain halted as #<Proc:0x007fb1921d6a00@/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_controller/metal/http_authentication.rb:112> rendered or redirected
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/guests/2" for 127.0.0.1 at 2012-12-08 18:32:33 +0530
+Processing by GuestsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mGuest Load (44.2ms)[0m  [1mSELECT `guests`.* FROM `guests` WHERE `guests`.`id` = 2 LIMIT 1[0m
+  Rendered guests/show.html.erb within layouts/application (0.7ms)
+  Rendered shared/_top_carousel.html.erb (0.6ms)
+  Rendered shared/_attendee.html.erb (0.3ms)
+  Rendered shared/_right_panel.html.erb (1.0ms)
+Completed 200 OK in 83ms (Views: 32.1ms | ActiveRecord: 44.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 18:40:39 +0530
+Connecting to database specified by database.yml
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (3.8ms)
+  Rendered guests/new.html.erb within layouts/application (32.4ms)
+Compiled application.css  (1ms)  (pid 2652)
+  Rendered shared/_top_carousel.html.erb (1.4ms)
+  Rendered shared/_attendee.html.erb (29.7ms)
+  Rendered shared/_right_panel.html.erb (30.8ms)
+Completed 200 OK in 187ms (Views: 152.4ms | ActiveRecord: 6.4ms)
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2012-12-08 18:40:40 +0530
+Served asset /favicon.ico - 200 OK (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 18:41:01 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (1.9ms)
+  Rendered guests/new.html.erb within layouts/application (3.0ms)
+Compiled application.css  (0ms)  (pid 2652)
+  Rendered shared/_top_carousel.html.erb (0.6ms)
+  Rendered shared/_attendee.html.erb (0.2ms)
+  Rendered shared/_right_panel.html.erb (0.8ms)
+Completed 200 OK in 31ms (Views: 30.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 18:41:47 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (1.9ms)
+  Rendered guests/new.html.erb within layouts/application (2.6ms)
+Compiled bootstrap_and_overrides.css  (1385ms)  (pid 2652)
+Compiled application.css  (1ms)  (pid 2652)
+  Rendered shared/_top_carousel.html.erb (0.7ms)
+  Rendered shared/_attendee.html.erb (0.5ms)
+  Rendered shared/_right_panel.html.erb (1.6ms)
+Completed 200 OK in 1599ms (Views: 1598.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 18:42:30 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (2.0ms)
+  Rendered guests/new.html.erb within layouts/application (2.8ms)
+  Rendered shared/_top_carousel.html.erb (0.4ms)
+  Rendered shared/_attendee.html.erb (0.2ms)
+  Rendered shared/_right_panel.html.erb (0.6ms)
+Completed 200 OK in 16ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 18:42:30 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (1.1ms)
+  Rendered guests/new.html.erb within layouts/application (1.6ms)
+  Rendered shared/_top_carousel.html.erb (0.8ms)
+  Rendered shared/_attendee.html.erb (0.3ms)
+  Rendered shared/_right_panel.html.erb (1.1ms)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 18:42:30 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (1.6ms)
+  Rendered guests/new.html.erb within layouts/application (4.9ms)
+  Rendered shared/_top_carousel.html.erb (0.4ms)
+  Rendered shared/_attendee.html.erb (0.2ms)
+  Rendered shared/_right_panel.html.erb (0.6ms)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 18:42:31 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (2.0ms)
+  Rendered guests/new.html.erb within layouts/application (2.8ms)
+  Rendered shared/_top_carousel.html.erb (0.4ms)
+  Rendered shared/_attendee.html.erb (0.4ms)
+  Rendered shared/_right_panel.html.erb (1.4ms)
+Completed 200 OK in 17ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 18:42:37 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (1.1ms)
+  Rendered guests/new.html.erb within layouts/application (1.7ms)
+Compiled bootstrap_and_overrides.css  (1087ms)  (pid 2652)
+Compiled application.css  (0ms)  (pid 2652)
+  Rendered shared/_top_carousel.html.erb (0.7ms)
+  Rendered shared/_attendee.html.erb (0.2ms)
+  Rendered shared/_right_panel.html.erb (0.9ms)
+Completed 200 OK in 1125ms (Views: 1124.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 18:42:54 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (1.9ms)
+  Rendered guests/new.html.erb within layouts/application (2.7ms)
+Compiled bootstrap_and_overrides.css  (1032ms)  (pid 2652)
+Compiled application.css  (1ms)  (pid 2652)
+  Rendered shared/_top_carousel.html.erb (0.7ms)
+  Rendered shared/_attendee.html.erb (0.3ms)
+  Rendered shared/_right_panel.html.erb (1.0ms)
+Completed 200 OK in 1281ms (Views: 1280.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 18:43:15 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (3.1ms)
+  Rendered guests/new.html.erb within layouts/application (4.3ms)
+  Rendered shared/_top_carousel.html.erb (0.6ms)
+  Rendered shared/_attendee.html.erb (0.4ms)
+  Rendered shared/_right_panel.html.erb (1.1ms)
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 18:43:30 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (1.5ms)
+  Rendered guests/new.html.erb within layouts/application (78.7ms)
+  Rendered shared/_top_carousel.html.erb (0.5ms)
+  Rendered shared/_attendee.html.erb (0.2ms)
+  Rendered shared/_right_panel.html.erb (0.7ms)
+Completed 200 OK in 91ms (Views: 90.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 18:43:43 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (1.5ms)
+  Rendered guests/new.html.erb within layouts/application (2.2ms)
+Compiled bootstrap_and_overrides.css  (976ms)  (pid 2652)
+Compiled application.css  (1ms)  (pid 2652)
+  Rendered shared/_top_carousel.html.erb (0.7ms)
+  Rendered shared/_attendee.html.erb (0.2ms)
+  Rendered shared/_right_panel.html.erb (0.8ms)
+Completed 200 OK in 1308ms (Views: 1307.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 18:43:53 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (1.3ms)
+  Rendered guests/new.html.erb within layouts/application (1.8ms)
+  Rendered shared/_top_carousel.html.erb (0.6ms)
+  Rendered shared/_attendee.html.erb (0.3ms)
+  Rendered shared/_right_panel.html.erb (0.8ms)
+Completed 200 OK in 16ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 18:48:56 +0530
+Connecting to database specified by database.yml
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (4.5ms)
+  Rendered guests/new.html.erb within layouts/application (16.6ms)
+Compiled bootstrap_and_overrides.css  (1526ms)  (pid 2691)
+Compiled application.css  (1ms)  (pid 2691)
+  Rendered shared/_top_carousel.html.erb (1.0ms)
+  Rendered shared/_attendee.html.erb (0.6ms)
+  Rendered shared/_right_panel.html.erb (1.5ms)
+Completed 200 OK in 1911ms (Views: 1841.1ms | ActiveRecord: 30.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 18:49:37 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (2.1ms)
+  Rendered guests/new.html.erb within layouts/application (3.0ms)
+  Rendered shared/_top_carousel.html.erb (0.7ms)
+  Rendered shared/_attendee.html.erb (0.3ms)
+  Rendered shared/_right_panel.html.erb (1.1ms)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 18:50:22 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (2.4ms)
+  Rendered guests/new.html.erb within layouts/application (3.2ms)
+  Rendered shared/_top_carousel.html.erb (0.4ms)
+  Rendered shared/_attendee.html.erb (0.2ms)
+  Rendered shared/_right_panel.html.erb (0.6ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 18:53:12 +0530
+Connecting to database specified by database.yml
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (4.4ms)
+  Rendered guests/new.html.erb within layouts/application (46.4ms)
+Compiled bootstrap_and_overrides.css  (2183ms)  (pid 2716)
+Compiled application.css  (1ms)  (pid 2716)
+  Rendered shared/_top_carousel.html.erb (1.5ms)
+  Rendered shared/_attendee.html.erb (2.4ms)
+  Rendered shared/_right_panel.html.erb (12.4ms)
+Completed 200 OK in 2893ms (Views: 2762.7ms | ActiveRecord: 69.5ms)
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2012-12-08 18:53:17 +0530
+Served asset /favicon.ico - 200 OK (27ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 18:54:44 +0530
+Connecting to database specified by database.yml
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (3.4ms)
+  Rendered guests/new.html.erb within layouts/application (55.9ms)
+Compiled bootstrap_and_overrides.css  (2137ms)  (pid 2728)
+Compiled application.css  (1ms)  (pid 2728)
+  Rendered shared/_top_carousel.html.erb (2.8ms)
+  Rendered shared/_attendee.html.erb (1.6ms)
+  Rendered shared/_right_panel.html.erb (13.1ms)
+Completed 200 OK in 2869ms (Views: 2772.5ms | ActiveRecord: 36.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 19:02:48 +0530
+Connecting to database specified by database.yml
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (4.1ms)
+  Rendered guests/new.html.erb within layouts/application (46.1ms)
+Compiled bootstrap_and_overrides.css  (1661ms)  (pid 2876)
+Compiled application.css  (2ms)  (pid 2876)
+  Rendered shared/_top_carousel.html.erb (1.5ms)
+  Rendered shared/_attendee.html.erb (1.1ms)
+  Rendered shared/_right_panel.html.erb (12.3ms)
+Completed 200 OK in 2370ms (Views: 2311.9ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2012-12-08 19:02:55 +0530
+Served asset /favicon.ico - 200 OK (49ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 19:04:18 +0530
+Connecting to database specified by database.yml
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (4.0ms)
+  Rendered guests/new.html.erb within layouts/application (9.0ms)
+Compiled bootstrap_and_overrides.css  (1394ms)  (pid 2886)
+Compiled application.css  (1ms)  (pid 2886)
+  Rendered shared/_top_carousel.html.erb (0.8ms)
+  Rendered shared/_attendee.html.erb (0.5ms)
+  Rendered shared/_right_panel.html.erb (1.1ms)
+Completed 200 OK in 1810ms (Views: 1723.3ms | ActiveRecord: 59.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 19:06:41 +0530
+Connecting to database specified by database.yml
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (3.5ms)
+  Rendered guests/new.html.erb within layouts/application (10.4ms)
+Compiled bootstrap_and_overrides.css  (1446ms)  (pid 2907)
+Compiled application.css  (1ms)  (pid 2907)
+  Rendered shared/_top_carousel.html.erb (0.8ms)
+  Rendered shared/_attendee.html.erb (0.6ms)
+  Rendered shared/_right_panel.html.erb (1.4ms)
+Completed 200 OK in 1814ms (Views: 1700.4ms | ActiveRecord: 90.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 19:12:45 +0530
+Connecting to database specified by database.yml
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (3.4ms)
+  Rendered guests/new.html.erb within layouts/application (116.7ms)
+Compiled bootstrap_and_overrides.css  (1345ms)  (pid 351)
+Compiled application.css  (0ms)  (pid 351)
+  Rendered shared/_top_carousel.html.erb (1.3ms)
+  Rendered shared/_attendee.html.erb (0.7ms)
+  Rendered shared/_right_panel.html.erb (1.7ms)
+Completed 200 OK in 2203ms (Views: 1942.2ms | ActiveRecord: 108.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 19:13:19 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (1.4ms)
+  Rendered guests/new.html.erb within layouts/application (1.9ms)
+  Rendered shared/_top_carousel.html.erb (0.4ms)
+  Rendered shared/_attendee.html.erb (0.2ms)
+  Rendered shared/_right_panel.html.erb (0.6ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 19:13:51 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (1.8ms)
+  Rendered guests/new.html.erb within layouts/application (2.4ms)
+Compiled bootstrap_and_overrides.css  (126ms)  (pid 351)
+Compiled application.css  (0ms)  (pid 351)
+  Rendered shared/_top_carousel.html.erb (0.6ms)
+  Rendered shared/_attendee.html.erb (0.2ms)
+  Rendered shared/_right_panel.html.erb (0.7ms)
+Completed 200 OK in 182ms (Views: 181.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 19:14:07 +0530
+Connecting to database specified by database.yml
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (2.4ms)
+  Rendered guests/new.html.erb within layouts/application (27.4ms)
+  Rendered shared/_top_carousel.html.erb (0.9ms)
+  Rendered shared/_attendee.html.erb (0.6ms)
+  Rendered shared/_right_panel.html.erb (1.4ms)
+Completed 200 OK in 91ms (Views: 68.0ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 19:14:54 +0530
+Connecting to database specified by database.yml
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (2.3ms)
+  Rendered guests/new.html.erb within layouts/application (23.7ms)
+Compiled bootstrap_and_overrides.css  (4ms)  (pid 396)
+Compiled application.css  (0ms)  (pid 396)
+  Rendered shared/_top_carousel.html.erb (0.8ms)
+  Rendered shared/_attendee.html.erb (0.5ms)
+  Rendered shared/_right_panel.html.erb (1.2ms)
+Completed 200 OK in 106ms (Views: 78.1ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/guests" for 127.0.0.1 at 2012-12-08 19:16:04 +0530
+Connecting to database specified by database.yml
+Processing by GuestsController#index as HTML
+  [1m[36mGuest Load (0.3ms)[0m  [1mSELECT `guests`.* FROM `guests` [0m
+  Rendered guests/index.html.erb within layouts/application (11.0ms)
+Compiled application.css  (0ms)  (pid 403)
+  Rendered shared/_top_carousel.html.erb (0.9ms)
+  Rendered shared/_attendee.html.erb (0.6ms)
+  Rendered shared/_right_panel.html.erb (1.3ms)
+Completed 200 OK in 149ms (Views: 97.4ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/guests" for 127.0.0.1 at 2012-12-08 19:17:19 +0530
+Connecting to database specified by database.yml
+Processing by GuestsController#index as HTML
+  [1m[36mGuest Load (0.2ms)[0m  [1mSELECT `guests`.* FROM `guests` [0m
+  Rendered guests/index.html.erb within layouts/application (8.6ms)
+Compiled bootstrap.min.css  (0ms)  (pid 418)
+Compiled application.css  (7ms)  (pid 418)
+  Rendered shared/_top_carousel.html.erb (0.9ms)
+  Rendered shared/_attendee.html.erb (0.6ms)
+  Rendered shared/_right_panel.html.erb (1.4ms)
+Completed 200 OK in 133ms (Views: 101.5ms | ActiveRecord: 6.9ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-08 19:17:19 +0530
+Served asset /bootstrap.min.css - 200 OK (7ms)
+
+
+Started GET "/img/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-08 19:17:20 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/glyphicons-halflings.png"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 19:17:30 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (1.8ms)
+  Rendered guests/new.html.erb within layouts/application (2.7ms)
+  Rendered shared/_top_carousel.html.erb (0.4ms)
+  Rendered shared/_attendee.html.erb (0.2ms)
+  Rendered shared/_right_panel.html.erb (0.7ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-08 19:17:30 +0530
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/img/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-08 19:17:30 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/glyphicons-halflings.png"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 19:18:55 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (2.1ms)
+  Rendered guests/new.html.erb within layouts/application (2.9ms)
+  Rendered shared/_top_carousel.html.erb (0.4ms)
+  Rendered shared/_attendee.html.erb (0.2ms)
+  Rendered shared/_right_panel.html.erb (0.6ms)
+Completed 200 OK in 26ms (Views: 16.3ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-08 19:18:56 +0530
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/img/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-08 19:18:56 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/glyphicons-halflings.png"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started POST "/guests" for 127.0.0.1 at 2012-12-08 19:18:58 +0530
+Processing by GuestsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hBjQ43Pmdo+k9KOUdFxv0TEFRnUJL8N6ssJNcyQHXRw=", "guest"=>{"name"=>"", "cell_num"=>"", "attending"=>"0"}, "commit"=>"Register"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  Rendered guests/_form.html.erb (2.1ms)
+  Rendered guests/new.html.erb within layouts/application (2.6ms)
+  Rendered shared/_top_carousel.html.erb (0.4ms)
+  Rendered shared/_attendee.html.erb (0.2ms)
+  Rendered shared/_right_panel.html.erb (0.6ms)
+Completed 200 OK in 111ms (Views: 14.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-08 19:18:59 +0530
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/img/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-08 19:19:00 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/glyphicons-halflings.png"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started POST "/guests" for 127.0.0.1 at 2012-12-08 19:19:57 +0530
+Processing by GuestsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hBjQ43Pmdo+k9KOUdFxv0TEFRnUJL8N6ssJNcyQHXRw=", "guest"=>{"name"=>"", "cell_num"=>"", "attending"=>"0"}, "commit"=>"Register"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  Rendered guests/_form.html.erb (3.0ms)
+  Rendered guests/new.html.erb within layouts/application (3.6ms)
+  Rendered shared/_top_carousel.html.erb (0.4ms)
+  Rendered shared/_attendee.html.erb (0.2ms)
+  Rendered shared/_right_panel.html.erb (0.7ms)
+Completed 200 OK in 17ms (Views: 13.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-08 19:19:57 +0530
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/img/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-08 19:19:58 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/glyphicons-halflings.png"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/guests/new" for 127.0.0.1 at 2012-12-08 19:20:10 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (1.4ms)
+  Rendered guests/new.html.erb within layouts/application (2.0ms)
+  Rendered shared/_top_carousel.html.erb (0.4ms)
+  Rendered shared/_attendee.html.erb (0.1ms)
+  Rendered shared/_right_panel.html.erb (0.5ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-08 19:20:10 +0530
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/img/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-08 19:20:11 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/glyphicons-halflings.png"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started POST "/guests" for 127.0.0.1 at 2012-12-08 19:20:14 +0530
+Processing by GuestsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hBjQ43Pmdo+k9KOUdFxv0TEFRnUJL8N6ssJNcyQHXRw=", "guest"=>{"name"=>"", "cell_num"=>"", "attending"=>"0"}, "commit"=>"Register"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  Rendered guests/_form.html.erb (2.3ms)
+  Rendered guests/new.html.erb within layouts/application (2.9ms)
+  Rendered shared/_top_carousel.html.erb (0.5ms)
+  Rendered shared/_attendee.html.erb (0.2ms)
+  Rendered shared/_right_panel.html.erb (0.9ms)
+Completed 200 OK in 17ms (Views: 13.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-08 19:20:14 +0530
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/img/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-08 19:20:15 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/glyphicons-halflings.png"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started POST "/guests" for 127.0.0.1 at 2012-12-08 19:20:53 +0530
+Processing by GuestsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hBjQ43Pmdo+k9KOUdFxv0TEFRnUJL8N6ssJNcyQHXRw=", "guest"=>{"name"=>"", "cell_num"=>"", "attending"=>"0"}, "commit"=>"Register"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+ERROR: compiling _app_views_guests__form_html_erb__2097410946715600231_70307934756560 RAISED /Users/ankitgupta/Documents/Projects/jash2012/app/views/guests/_form.html.erb:13: syntax error, unexpected ',', expecting tCOLON2 or '[' or '.'
+...uffer.append= ( f.label ,:sex ,' Male' );@output_buffer.safe...
+...                               ^
+Function body:           def _app_views_guests__form_html_erb__2097410946715600231_70307934756560(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "guests/_form";_old_output_buffer = @output_buffer;form = local_assigns[:form];;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.append=  form_for @guest  do |f| @output_buffer.safe_concat('
+'); unless @guest.errors.full_messages.blank? 
+@output_buffer.safe_concat('<div class="alert alert-error">
+    ');@output_buffer.append= ( formatted_message @guest.errors.full_messages );@output_buffer.safe_concat(' <i class=\'icon-off\'></i>
+</div>
+');end
+@output_buffer.append= ( f.text_field :name ,:size => 50,:placeholder => 'Name');@output_buffer.safe_concat(' </br>
+
+');@output_buffer.append= ( f.phone_field :cell_num ,:size => 50,:placeholder => 'Mobile No');@output_buffer.safe_concat('</br>
+
+<label class="Radio">
+');@output_buffer.append= ( f.radio_button :sex, "male"  );@output_buffer.safe_concat('
+');@output_buffer.append= ( f.label ,:sex ,' Male' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('</label>
+<label class="Radio">
+');@output_buffer.append= ( f.radio_button :sex, "female"  );@output_buffer.safe_concat(' Female
+</label>
+<label class="checkbox">
+   ');@output_buffer.append= ( f.check_box :attending);@output_buffer.safe_concat(' Attending ?
+</label>
+
+');@output_buffer.append= ( f.submit 'Register',:class => 'btn');@output_buffer.safe_concat('
+'); end 
+@output_buffer.safe_concat('
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_view/template.rb:297:in `module_eval'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_view/template.rb:297:in `compile'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_view/template.rb:232:in `compile!'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_view/template.rb:144:in `block in render'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-3.2.9/lib/active_support/notifications.rb:125:in `instrument'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_view/template.rb:143:in `render'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_view/renderer/partial_renderer.rb:265:in `render_partial'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_view/renderer/partial_renderer.rb:238:in `block in render'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-3.2.9/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-3.2.9/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-3.2.9/lib/active_support/notifications.rb:123:in `instrument'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_view/renderer/partial_renderer.rb:237:in `render'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_view/renderer/renderer.rb:41:in `render_partial'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_view/helpers/rendering_helper.rb:27:in `render'
+/Users/ankitgupta/Documents/Projects/jash2012/app/views/guests/new.html.erb:4:in `_app_views_guests_new_html_erb__1232983045930326727_70307932328420'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_view/template.rb:145:in `block in render'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-3.2.9/lib/active_support/notifications.rb:125:in `instrument'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_view/template.rb:143:in `render'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-3.2.9/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-3.2.9/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-3.2.9/lib/active_support/notifications.rb:123:in `instrument'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/abstract_controller/rendering.rb:88:in `render'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-3.2.9/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-3.2.9/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/activerecord-3.2.9/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/ankitgupta/Documents/Projects/jash2012/app/controllers/guests_controller.rb:51:in `block (2 levels) in create'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_controller/metal/mime_responds.rb:196:in `call'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_controller/metal/mime_responds.rb:196:in `respond_to'
+/Users/ankitgupta/Documents/Projects/jash2012/app/controllers/guests_controller.rb:46:in `create'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-3.2.9/lib/active_support/callbacks.rb:414:in `_run__1372192820488939464__process_action__3877732910757901473__callbacks'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-3.2.9/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-3.2.9/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-3.2.9/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-3.2.9/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-3.2.9/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-3.2.9/lib/active_support/notifications.rb:123:in `instrument'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/activerecord-3.2.9/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/abstract_controller/base.rb:121:in `process'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_controller/metal.rb:203:in `dispatch'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_controller/metal.rb:246:in `block in action'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/routing/route_set.rb:601:in `call'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/rack-1.4.1/lib/rack/conditionalget.rb:35:in `call'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/activerecord-3.2.9/lib/active_record/query_cache.rb:64:in `call'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/activerecord-3.2.9/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-3.2.9/lib/active_support/callbacks.rb:405:in `_run__4396780880196236430__call__4442075472295172750__callbacks'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-3.2.9/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-3.2.9/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-3.2.9/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/railties-3.2.9/lib/rails/rack/logger.rb:32:in `call_app'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/railties-3.2.9/lib/rails/rack/logger.rb:16:in `block in call'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-3.2.9/lib/active_support/tagged_logging.rb:22:in `tagged'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/railties-3.2.9/lib/rails/rack/logger.rb:16:in `call'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-3.2.9/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/static.rb:62:in `call'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/railties-3.2.9/lib/rails/engine.rb:479:in `call'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/railties-3.2.9/lib/rails/application.rb:223:in `call'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/railties-3.2.9/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+/Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered guests/_form.html.erb (77.6ms)
+  Rendered guests/new.html.erb within layouts/application (78.3ms)
+Completed 500 Internal Server Error in 83ms
+
+ActionView::Template::Error (/Users/ankitgupta/Documents/Projects/jash2012/app/views/guests/_form.html.erb:13: syntax error, unexpected ',', expecting tCOLON2 or '[' or '.'
+...uffer.append= ( f.label ,:sex ,' Male' );@output_buffer.safe...
+...                               ^):
+    10: 
+    11: <label class="Radio">
+    12: <%= f.radio_button :sex, "male"  %>
+    13: <%= f.label ,:sex ,' Male' %>
+    14: </label>
+    15: <label class="Radio">
+    16: <%= f.radio_button :sex, "female"  %> Female
+  app/views/guests/new.html.erb:4:in `_app_views_guests_new_html_erb__1232983045930326727_70307932328420'
+  app/controllers/guests_controller.rb:51:in `block (2 levels) in create'
+  app/controllers/guests_controller.rb:46:in `create'
+
+
+  Rendered /Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.4ms)
+
+
+Started POST "/guests" for 127.0.0.1 at 2012-12-08 19:21:11 +0530
+Processing by GuestsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hBjQ43Pmdo+k9KOUdFxv0TEFRnUJL8N6ssJNcyQHXRw=", "guest"=>{"name"=>"", "cell_num"=>"", "attending"=>"0"}, "commit"=>"Register"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  Rendered guests/_form.html.erb (2.8ms)
+  Rendered guests/new.html.erb within layouts/application (3.4ms)
+  Rendered shared/_top_carousel.html.erb (0.3ms)
+  Rendered shared/_attendee.html.erb (0.2ms)
+  Rendered shared/_right_panel.html.erb (0.6ms)
+Completed 200 OK in 16ms (Views: 12.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-08 19:21:11 +0530
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/img/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-08 19:21:12 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/glyphicons-halflings.png"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/guests/new" for 127.0.0.1 at 2012-12-08 19:21:19 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (1.3ms)
+  Rendered guests/new.html.erb within layouts/application (1.7ms)
+  Rendered shared/_top_carousel.html.erb (0.4ms)
+  Rendered shared/_attendee.html.erb (0.2ms)
+  Rendered shared/_right_panel.html.erb (0.8ms)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-08 19:21:19 +0530
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/img/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-08 19:21:19 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/glyphicons-halflings.png"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/guests/new" for 127.0.0.1 at 2012-12-08 19:21:34 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (1.9ms)
+  Rendered guests/new.html.erb within layouts/application (2.7ms)
+  Rendered shared/_top_carousel.html.erb (0.6ms)
+  Rendered shared/_attendee.html.erb (0.2ms)
+  Rendered shared/_right_panel.html.erb (0.8ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-08 19:21:35 +0530
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/img/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-08 19:21:35 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/glyphicons-halflings.png"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/guests/new" for 127.0.0.1 at 2012-12-08 19:22:28 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (1.5ms)
+  Rendered guests/new.html.erb within layouts/application (2.7ms)
+  Rendered shared/_top_carousel.html.erb (0.3ms)
+  Rendered shared/_attendee.html.erb (0.2ms)
+  Rendered shared/_right_panel.html.erb (0.6ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-08 19:22:28 +0530
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/img/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-08 19:22:28 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/glyphicons-halflings.png"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/guests/new" for 127.0.0.1 at 2012-12-08 19:22:34 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (1.4ms)
+  Rendered guests/new.html.erb within layouts/application (2.3ms)
+  Rendered shared/_top_carousel.html.erb (0.4ms)
+  Rendered shared/_attendee.html.erb (0.2ms)
+  Rendered shared/_right_panel.html.erb (0.6ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-08 19:22:34 +0530
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/img/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-08 19:22:35 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/glyphicons-halflings.png"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/guests/new" for 127.0.0.1 at 2012-12-08 19:23:14 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (1.2ms)
+  Rendered guests/new.html.erb within layouts/application (1.6ms)
+  Rendered shared/_top_carousel.html.erb (0.4ms)
+  Rendered shared/_attendee.html.erb (0.3ms)
+  Rendered shared/_right_panel.html.erb (1.3ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-08 19:23:14 +0530
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/img/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-08 19:23:15 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/glyphicons-halflings.png"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/guests/new" for 127.0.0.1 at 2012-12-08 19:24:03 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (2.0ms)
+  Rendered guests/new.html.erb within layouts/application (2.8ms)
+  Rendered shared/_top_carousel.html.erb (0.6ms)
+  Rendered shared/_attendee.html.erb (1.2ms)
+  Rendered shared/_right_panel.html.erb (1.9ms)
+Completed 200 OK in 19ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-08 19:24:04 +0530
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/img/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-08 19:24:04 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/glyphicons-halflings.png"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started POST "/guests" for 127.0.0.1 at 2012-12-08 19:24:41 +0530
+Processing by GuestsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hBjQ43Pmdo+k9KOUdFxv0TEFRnUJL8N6ssJNcyQHXRw=", "guest"=>{"name"=>"", "cell_num"=>"", "attending"=>"0"}, "commit"=>"Register"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  Rendered guests/_form.html.erb (2.1ms)
+  Rendered guests/new.html.erb within layouts/application (2.6ms)
+  Rendered shared/_top_carousel.html.erb (0.4ms)
+  Rendered shared/_attendee.html.erb (0.2ms)
+  Rendered shared/_right_panel.html.erb (0.7ms)
+Completed 200 OK in 14ms (Views: 12.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-08 19:24:41 +0530
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/img/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-08 19:24:42 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/glyphicons-halflings.png"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 19:24:53 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (1.8ms)
+  Rendered guests/new.html.erb within layouts/application (2.6ms)
+  Rendered shared/_top_carousel.html.erb (0.4ms)
+  Rendered shared/_attendee.html.erb (0.2ms)
+  Rendered shared/_right_panel.html.erb (0.6ms)
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-08 19:24:53 +0530
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/img/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-08 19:24:53 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/glyphicons-halflings.png"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/ankitgupta/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/ankitgupta/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
