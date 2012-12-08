@@ -1,16 +1,8 @@
 <table class="table">
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
   <tbody>
-  <% attending_guests(guests).each_with_index do |name,i|%>
-    <tr>
-      <td><%= name %></td>
-      <td><span class='icon-ok offset1'> </span></td>
-     </tr>
+  <% attending = attending_guests(guests) %>
+  <% attending.each do |name|%>
+  <span ><%= name %></span>
   <% end %>
   </tbody>
 </table>
