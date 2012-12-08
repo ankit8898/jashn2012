@@ -1,1 +1,13 @@
-tmp/
+.bundle
+.DS_Store
+.dotest/*
+.*.swp
+db/*.db
+db/*.sqlite3
+db/development_structure.sql
+doc/design/*
+log/*.log
+tmp/**/*
+nbproject/*
+config/database.yml
+.rvmrc
