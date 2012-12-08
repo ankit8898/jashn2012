@@ -1,8 +1,6 @@
 <div aria-hidden="false" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" class="modal hide fade in" id="myModal">
-	<div class="modal-header">
-	  <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
-	  <h3 id="myModalLabel">Attendees</h3>
-	</div>
+	  <button style="margin-right: 10px" aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+	 
 	<div class="modal-body">
 	  <%= render 'shared/attending', :guests => guests %>
 	</div>
@@ -10,4 +8,5 @@
 	  <button data-dismiss="modal" class="btn">Close</button>
 	  <button class="btn btn-warning">Save changes</button>
 	</div>
+
 </div>
