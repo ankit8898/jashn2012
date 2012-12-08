@@ -1,8 +1,26 @@
-<table class="table">
+<table class="table" id='source'>
+  <thead>
+    <tr>
+      <th>Name</th>
+    </tr>
+  </thead>
   <tbody>
-  <% attending = attending_guests(guests) %>
-  <% attending.each do |name|%>
-  <span ><%= name %></span>
-  <% end %>
+    <tr>
+      <% attending_guests(guests).each do |name|%>
+        <td>
+          <i class='icon-ok' style="margin-right:5px"></i>
+          <%= name -%>
+        </td>
+      <% end %>
+    </tr>
   </tbody>
 </table>
+<table id="des"></table>
+<script type="text/javascript">
+$(function(){
+  while($("#source td").length > 0){
+    $("#des").append($("<tr/>").append($("#source td").slice(0, 4)));
+  }
+  $("#source").remove(); 
+});
+</script>
