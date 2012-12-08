@@ -8,4 +8,8 @@ module GuestsHelper
 		end
 		(str + a.join(', ') + ' is Missing ').html_safe
 	end
+
+	def attending_guests guests
+		guests.collect {|guest| guest.name if guest.attending}
+	end
 end

@@ -1,21 +1,16 @@
 <table class="table">
   <thead>
     <tr>
-      <th>#</th>
-      <th>First Name</th>
-      <th>Last Name</th>
-      <th>Username</th>
+      <th></th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
-    <% guests.each do |guest| %>
-      <%= %>
-    <% end %>
+  <% attending_guests(guests).each_with_index do |name,i|%>
     <tr>
-      <td>1</td>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
+      <td><%= name %></td>
+      <td><span class='icon-ok offset1'> </span></td>
+     </tr>
+  <% end %>
   </tbody>
 </table>

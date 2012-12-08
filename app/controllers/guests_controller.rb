@@ -26,6 +26,7 @@ class GuestsController < ApplicationController
   # GET /guests/new.json
   def new
     @guest = Guest.new
+    @guests = Guest.all
 
     respond_to do |format|
       format.html # new.html.erb

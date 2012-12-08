@@ -11,3 +11,4 @@ tmp/**/*
 nbproject/*
 config/database.yml
 .rvmrc
+log
