@@ -6,7 +6,7 @@
 <%end%>
 <%= f.text_field :name ,:size => 50,:placeholder => 'Name'%> </br>
 
-<%= f.phone_field :cell_num ,:size => 50,:placeholder => 'Mobile No'%></br>
+<%= f.phone_field :cell_num , :pattern=>"[0-9]{10}", :title=>'Phone Number 10 Digit',:placeholder => 'Mobile No'%></br>
 
 <label class="Radio">
 	<%= f.radio_button :sex, "male"  %> Male
