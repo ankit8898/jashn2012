@@ -7,6 +7,8 @@ avatar2.jpg: avatar2-2abc259c252ef9e29c1d79982f59b543.jpg
 avatar2/index.jpg: avatar2-2abc259c252ef9e29c1d79982f59b543.jpg
 avatar3.jpg: avatar3-9f05e247f462b86a59ece5ead7c26ef0.jpg
 avatar3/index.jpg: avatar3-9f05e247f462b86a59ece5ead7c26ef0.jpg
+favicon.ico: favicon-ce404f6a1665494021d8d6003d641c4a.ico
+favicon/index.ico: favicon-ce404f6a1665494021d8d6003d641c4a.ico
 jack.jpg: jack-4c4a10cebfd4f072a4740b9bef02da79.jpg
 jack/index.jpg: jack-4c4a10cebfd4f072a4740b9bef02da79.jpg
 large_1295.png: large_1295-caa7783a87c2b68a3ae58437f9618729.png
@@ -37,8 +39,8 @@ bootstrap.js: bootstrap-2b9296590073083355a21c8fe0915f73.js
 bootstrap/index.js: bootstrap-2b9296590073083355a21c8fe0915f73.js
 guests.js: guests-a7fa98ba2ef09a5dcc079d3f014a4e3c.js
 guests/index.js: guests-a7fa98ba2ef09a5dcc079d3f014a4e3c.js
-application.css: application-cd0b85376ed6b857485437cfe95c32fe.css
-application/index.css: application-cd0b85376ed6b857485437cfe95c32fe.css
+application.css: application-31dd3073d82926a1e95043f2c2cd1999.css
+application/index.css: application-31dd3073d82926a1e95043f2c2cd1999.css
 jquery-ui.js: jquery-ui-4856b8d4fb395706be8d907efda018e4.js
 jquery-ui/index.js: jquery-ui-4856b8d4fb395706be8d907efda018e4.js
 jquery-ui.min.js: jquery-ui.min-28c6a8bb2a5472bfe2d682048318dada.js
