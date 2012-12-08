@@ -16,4 +16,8 @@ module GuestsHelper
 	def formatted_name name
 		name + " is Attending "
 	end
+
+	def attending_guests guests
+		guests.collect {|guest| guest.name if guest.attending}\
+	end
 end
