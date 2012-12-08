@@ -18,6 +18,6 @@ module GuestsHelper
 	end
 
 	def attending_guests guests
-		attendees = guests.collect {|guest| guest.name if guest.attending}
+		guests.collect {|guest| guest.name if guest.attending}
 	end
 end
