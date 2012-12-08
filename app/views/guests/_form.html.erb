@@ -1,14 +1,17 @@
-<%= form_for @guest  ,:html => { :class => "form-inline"} do |f| %>
+<%= form_for @guest  do |f| %>
    <% unless @guest.errors.full_messages.blank? %>
    <div class="alert alert-error">
     <%= @guest.errors.full_messages %>
     </div>
     <%end%>
-    <%= f.text_field :name ,:size => 150, :class => 'input-small' ,:placeholder => 'Name'%>
+    <%= f.text_field :name ,:size => 50,:placeholder => 'Name'%> </br>
  
-    <%= f.phone_field :cell_num ,:class => 'input-small',:size => 90,:placeholder => 'Mobile No'%>
-    <%= f.check_box :attending%>
-    <%= f.label :attending, :class => 'checkbox'  %>
+    <%= f.phone_field :cell_num ,:size => 50,:placeholder => 'Mobile No'%></br>
+    
+    <label class="checkbox">
+     <%= f.check_box :attending%>Check me out
+    </label>
+ 
     <%= f.submit 'Register',:class => 'btn'%>
 <% end %>
 
