@@ -42822,3 +42822,86 @@ Served asset /bootstrap.min.css - 304 Not Modified (0ms)
 
 Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-08 20:10:15 +0530
 Served asset /bootstrap.css - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 21:02:31 +0530
+Connecting to database specified by database.yml
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (5.1ms)
+  Rendered guests/new.html.erb within layouts/application (44.4ms)
+Compiled bootstrap.css  (1ms)  (pid 28087)
+Compiled bootstrap.min.css  (1ms)  (pid 28087)
+Compiled application.css  (56ms)  (pid 28087)
+Compiled jquery.js  (3ms)  (pid 28087)
+Compiled jquery_ujs.js  (0ms)  (pid 28087)
+Compiled bootstrap.js  (1ms)  (pid 28087)
+Compiled bootstrap.js  (81ms)  (pid 28087)
+Compiled bootstrap.min.js  (0ms)  (pid 28087)
+Compiled guests.js  (1ms)  (pid 28087)
+Compiled application.js  (224ms)  (pid 28087)
+  Rendered shared/_top_carousel.html.erb (1.9ms)
+  Rendered shared/_attendee.html.erb (1.1ms)
+  Rendered shared/_right_panel.html.erb (2.4ms)
+Completed 200 OK in 509ms (Views: 404.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 21:04:43 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (2.8ms)
+  Rendered guests/new.html.erb within layouts/application (3.7ms)
+  Rendered shared/_top_carousel.html.erb (1.0ms)
+  Rendered shared/_attendee.html.erb (0.5ms)
+  Rendered shared/_attending_list.html.erb (0.5ms)
+  Rendered shared/_right_panel.html.erb (3.7ms)
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 21:04:58 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (6.3ms)
+  Rendered guests/new.html.erb within layouts/application (7.4ms)
+  Rendered shared/_top_carousel.html.erb (1.0ms)
+  Rendered shared/_attendee.html.erb (0.4ms)
+  Rendered shared/_attending_list.html.erb (0.1ms)
+  Rendered shared/_right_panel.html.erb (2.2ms)
+Completed 200 OK in 23ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 21:06:08 +0530
+Connecting to database specified by database.yml
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (5.6ms)
+  Rendered guests/new.html.erb within layouts/application (58.7ms)
+Compiled bootstrap.min.js  (0ms)  (pid 28185)
+Compiled application.js  (6ms)  (pid 28185)
+  Rendered shared/_top_carousel.html.erb (2.6ms)
+  Rendered shared/_attendee.html.erb (1.3ms)
+  Rendered shared/_attending_list.html.erb (0.6ms)
+  Rendered shared/_right_panel.html.erb (4.8ms)
+Completed 200 OK in 343ms (Views: 238.0ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 21:07:29 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (2.7ms)
+  Rendered guests/new.html.erb within layouts/application (3.6ms)
+Compiled bootstrap.min.js  (0ms)  (pid 28185)
+Compiled application.js  (5ms)  (pid 28185)
+  Rendered shared/_top_carousel.html.erb (0.9ms)
+  Rendered shared/_attendee.html.erb (0.4ms)
+  Rendered shared/_attending_list.html.erb (0.0ms)
+  Rendered shared/_right_panel.html.erb (1.7ms)
+Completed 200 OK in 91ms (Views: 90.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-08 21:07:42 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (3.0ms)
+  Rendered guests/new.html.erb within layouts/application (3.9ms)
+Compiled bootstrap.js  (0ms)  (pid 28185)
+Compiled application.js  (6ms)  (pid 28185)
+  Rendered shared/_top_carousel.html.erb (1.0ms)
+  Rendered shared/_attendee.html.erb (0.4ms)
+  Rendered shared/_attending_list.html.erb (0.0ms)
+  Rendered shared/_right_panel.html.erb (2.0ms)
+Completed 200 OK in 91ms (Views: 90.0ms | ActiveRecord: 0.0ms)
