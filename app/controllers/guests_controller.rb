@@ -47,7 +47,7 @@ class GuestsController < ApplicationController
 
     respond_to do |format|
       if @guest.save
-        format.html { redirect_to @guest, notice: "We have been Notified.  Thank you Please find the complete list of attendes #{view_context.link_to('here' ,guests_path)}".html_safe}
+        format.html { redirect_to @guest, notice: "We have been Notified.  Thank you Please find the complete list of attendes <a class='text-warning' href='#myModal' data-toggle='modal'>here</a>".html_safe}
         format.json { render json: @guest, status: :created, location: @guest }
       else
         format.html { render action: "new" }
