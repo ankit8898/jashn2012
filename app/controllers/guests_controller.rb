@@ -1,6 +1,7 @@
 class GuestsController < ApplicationController
   # GET /guests
   # GET /guests.json
+   http_basic_authenticate_with :name => AUTH_CONFIG['credentials']['username'] ,:password => AUTH_CONFIG['credentials']['password'], :except => [:index, :new]
   def index
     @guests = Guest.all
 

@@ -9,6 +9,8 @@ if defined?(Bundler)
   # Bundler.require(:default, :assets, Rails.env)
 end
 
+AUTH_CONFIG = YAML.load(File.read(File.expand_path('../locales/auth.yml', __FILE__)))
+
 module Jash2012
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
