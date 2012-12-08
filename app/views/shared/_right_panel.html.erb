@@ -1,27 +1,21 @@
 
 <div class="span4">
-	<h3>Attendees <i class="icon-user"></i></h3>
-	<table class="table table-striped">
-		<tbody>
-			<% for guest in Guest.all %>
-    <tr>
-      <td> <%= guest.name  + " " + " is Attending" %></i></td>
-     
-    </tr>
-    <%end%>
-      
-  </tbody>
-	</table>
+ <%= render 'shared/attendee' %>
 </div>
 <div class="span4">
 	<h3> <i class="icon-calendar"></i> 28th December, 2012 </h3>
 	<address>
 		
-		<strong>Twitter, Inc.</strong><br>
-		795 Folsom Ave, Suite 600<br>
-		San Francisco, CA 94107<br>
-		<abbr title="Phone">P:</abbr> (123) 456-7890
+		<strong>360 Degree</strong><br>
+		1st Floor, Home Town, 247 Park, <br>
+		 LBS Marg, Vikhroli, Mumbai<br>
+		<abbr title="Phone">P:</abbr>  022 61775253
 	</address>
+
+	<address>
+  <strong>Details Contact: Ankit Gupta</strong><br>
+  <a href="mailto:#">ankit.gupta8898@gmail.com</a>
+</address>
 </div>
 
 </div>
