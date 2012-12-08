@@ -8,4 +8,12 @@ module GuestsHelper
 		end
 		(str + a.join(', ') + ' is Missing ').html_safe
 	end
+
+	def get_attendees
+      Guest.assign_name_and_avatar
+	end
+
+	def formatted_name name
+		name + " is Attending "
+	end
 end
