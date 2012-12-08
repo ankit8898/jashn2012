@@ -42783,3 +42783,42 @@ Served asset /bootstrap.css - 304 Not Modified (15ms)
 
 Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-08 19:46:23 +0530
 Served asset /glyphicons-halflings.png - 200 OK (4ms)
+
+
+Started POST "/guests" for 127.0.0.1 at 2012-12-08 19:47:48 +0530
+Processing by GuestsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hBjQ43Pmdo+k9KOUdFxv0TEFRnUJL8N6ssJNcyQHXRw=", "guest"=>{"name"=>"", "cell_num"=>"", "attending"=>"0"}, "commit"=>"Register"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered guests/_form.html.erb (3.6ms)
+  Rendered guests/new.html.erb within layouts/application (4.3ms)
+  Rendered shared/_top_carousel.html.erb (0.6ms)
+  Rendered shared/_attendee.html.erb (0.3ms)
+  Rendered shared/_right_panel.html.erb (0.9ms)
+Completed 200 OK in 32ms (Views: 19.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-08 19:47:48 +0530
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-08 19:47:48 +0530
+Served asset /bootstrap.css - 304 Not Modified (7ms)
+
+
+Started GET "/guests/new" for 127.0.0.1 at 2012-12-08 20:10:15 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (1.9ms)
+  Rendered guests/new.html.erb within layouts/application (2.4ms)
+  Rendered shared/_top_carousel.html.erb (1.1ms)
+  Rendered shared/_attendee.html.erb (0.9ms)
+  Rendered shared/_right_panel.html.erb (2.2ms)
+Completed 200 OK in 18ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-08 20:10:15 +0530
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-08 20:10:15 +0530
+Served asset /bootstrap.css - 304 Not Modified (2ms)

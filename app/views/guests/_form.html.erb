@@ -1,7 +1,7 @@
 <%= form_for @guest  do |f| %>
 <% unless @guest.errors.full_messages.blank? %>
 <div class="alert alert-error">
-    <%= formatted_message @guest.errors.full_messages %> <i class='icon-off'></i>
+	<%= formatted_message @guest.errors.full_messages %> <i class='icon-off'></i>
 </div>
 <%end%>
 <%= f.text_field :name ,:size => 50,:placeholder => 'Name'%> </br>
@@ -9,13 +9,14 @@
 <%= f.phone_field :cell_num ,:size => 50,:placeholder => 'Mobile No'%></br>
 
 <label class="Radio">
-<%= f.radio_button :sex, "male"  %> Male
-<%= f.radio_button :sex, "female"  %> Female
-</label>
-<label class="checkbox">
-   <%= f.check_box :attending%> Attending ?
+	<%= f.radio_button :sex, "male"  %> Male
+	<%= f.radio_button :sex, "female"  %> Female
 </label>
 
-<%= f.submit 'Register',:class => 'btn'%>
+<label class="checkbox">
+	<%= f.check_box :attending%> Attending ?
+</label>
+
+<%= f.submit 'Register',:class => 'btn btn-warning'%>
 <% end %>
 
