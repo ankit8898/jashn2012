@@ -12,7 +12,7 @@ class Guest < ActiveRecord::Base
 		 rescue
 		  Dir
 		end
-		 all_data = all
+		 all_data = limit(12)
 	     male_avatars, female_avatars = Dir.glob('m_*.jpg'), Dir.glob('f_*.jpg')
 	     md = male_avatar_details ({male_avatars: male_avatars ,
 	                           hash: hsh ,
