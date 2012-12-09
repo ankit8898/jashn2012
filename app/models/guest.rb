@@ -1,7 +1,7 @@
 class Guest < ActiveRecord::Base
 	attr_accessible :attending, :cell_num, :name ,:sex
 	validates_with JashnFunkyMessageValidator
-
+    scope :attending , -> {where(attending: true)}
 	class << self
       def assign_name_and_avatar
 		 hsh =  HashWithIndifferentAccess.new

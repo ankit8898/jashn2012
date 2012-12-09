@@ -17,7 +17,7 @@ module GuestsHelper
 		name + " is Attending "
 	end
 
-	def attending_guests guests
-		guests.collect {|guest| guest.name if guest.attending}
+	def guests_attending 
+		Guest.attending.pluck(:name)		
 	end
 end

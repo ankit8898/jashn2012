@@ -6,10 +6,10 @@
   </thead>
   <tbody>
     <tr>
-      <% attending_guests(guests).each do |name|%>
+      <% for guest_name in guests_attending %>
         <td>
           <i class='icon-ok' style="margin-right:5px"></i>
-          <%= name -%>
+          <%= guest_name -%>
         </td>
       <% end %>
     </tr>
