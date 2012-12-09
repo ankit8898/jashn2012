@@ -12,6 +12,7 @@ attendees.each_pair do |key,value|
 	value.each do |name|
       Guest.create! ({name: name,
                       sex: key,
-                      attending: true})
+                      attending: true,
+                      cell_num: rand(10 ** 10).to_s})
     end  
 end
