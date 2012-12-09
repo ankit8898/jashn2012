@@ -1,6 +1,8 @@
 class Guest < ActiveRecord::Base
-	attr_accessible :attending, :cell_num, :name ,:sex
+	attr_accessible :attending, :cell_num, :name ,:sex ,:email_id
 	validates_with JashnFunkyMessageValidator
+	validates :email_id, presence: true
+	validates :email_id , format: {with: /\A[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]+\z/, message: "is inValid"}
     scope :attending , -> {where(attending: true)}
 	class << self
       def assign_name_and_avatar

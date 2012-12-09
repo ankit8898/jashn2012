@@ -14,6 +14,7 @@ attendees.each_pair do |key,value|
       Guest.create! ({name: name,
                       sex: key,
                       attending: true,
-                      cell_num: rand(10 ** 10).to_s})
+                      cell_num: rand(10 ** 10).to_s,
+                      email_id: 'ankit.gupta8898@gmail.com'})
     end  
 end
