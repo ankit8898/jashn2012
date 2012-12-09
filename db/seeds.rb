@@ -6,6 +6,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
+Guest.delete_all
 attendees = {male: ['Ankit Gupta','Ashish Upadhyae', 'Manohar'], female: ['Ekta Verma', 'Sneha Sharma', 'Yashasree']}
 
 attendees.each_pair do |key,value|
