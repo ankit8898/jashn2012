@@ -9,9 +9,11 @@
 <%= f.phone_field :cell_num ,:placeholder => 'Mobile No '%></br>
 <%= f.text_field :email_id ,:size => 50,:placeholder => 'Email' %> </br>
 
-<label class="Radio">
+<label class="radio inline">
 	<%= f.radio_button :sex, "male" %> Male
-	<%= f.radio_button :sex, "female"  %> Female
+</label>
+<label class="radio inline">
+  <%= f.radio_button :sex, "female"  %> Female
 </label>
 
 <label class="checkbox">
