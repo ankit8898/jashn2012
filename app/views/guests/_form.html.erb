@@ -19,7 +19,7 @@
 <label class="checkbox">
 	<%= f.check_box :attending%> Attending ?
 </label>
-
+<%= recaptcha_tags :public_key => AUTH_CONFIG['recaptcha']['public_key'] %> <br>
 <%= f.submit 'Register',:class => 'btn btn-warning'%> <i id="example" rel="popover" data-content="We Highly recommend you to use Firefox or Chrome. " data-original-title="Browser Issues ?"class='icon-info-sign'></i>
 <% end %>
 <script type="text/javascript">
