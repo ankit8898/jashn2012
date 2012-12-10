@@ -46,7 +46,7 @@ class GuestsController < ApplicationController
     @guest = Guest.new(params[:guest])
     respond_to do |format|
       if @guest.save
-        GuestMailer.send_mail(@guest.email_id).deliver
+        GuestMailer.send_mail(@guest).deliver
         format.html { redirect_to @guest, notice: "We have been Notified.  Thank you Please find the complete list of attendes <a class='text-warning' href='#myModal' data-toggle='modal'>here</a>".html_safe}
         format.json { render json: @guest, status: :created, location: @guest }
       else
