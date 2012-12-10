@@ -28,7 +28,6 @@ Jash2012::Application.configure do
 
   # Do not compress assets
   config.assets.compress = false
-
   # Expands the lines which load the assets
   config.assets.debug = true
 
@@ -44,8 +43,8 @@ Jash2012::Application.configure do
     :domain         => 'your.domain.com',
     :authentication => :login,
     :content_type   => "text/html",
-    :user_name      => 'test.mailer1988',
-    :password       => 'testmailer1988'
+    :user_name      => AUTH_CONFIG['email']['username'],
+    :password       => AUTH_CONFIG['email']['password']
   }
 
   config.action_mailer.perform_deliveries = true
