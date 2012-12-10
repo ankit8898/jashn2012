@@ -1,7 +1,7 @@
 class GuestsController < ApplicationController
   # GET /guests
   # GET /guests.json
-   http_basic_authenticate_with :name => AUTH_CONFIG['credentials']['username'] ,:password => AUTH_CONFIG['credentials']['password'], :except => [:new,:show,:create]
+  http_basic_authenticate_with :name => AUTH_CONFIG['credentials']['username'] ,:password => AUTH_CONFIG['credentials']['password'], :except => [:new,:show,:create]
   def index
     @guests = Guest.all
 
@@ -45,7 +45,7 @@ class GuestsController < ApplicationController
   def create
     @guest = Guest.new(params[:guest])
     respond_to do |format|
-      if @guest.save
+      if @guest.save &&  verify_captcha
         deliver_mail(@guest)
         format.html { redirect_to @guest, notice: "We have been Notified.  Thank you ! Please find the complete list of attendes <a class='text-warning' href='#myModal' data-toggle='modal'>here</a>".html_safe}
         format.json { render json: @guest, status: :created, location: @guest }
@@ -82,14 +82,20 @@ class GuestsController < ApplicationController
       format.html { redirect_to guests_url }
       format.json { head :no_content }
     end
-    end
   end
+end
 
-   def deliver_mail guest
-      case guest.attending
-      when true
-        GuestMailer.send_to_attending(@guest).deliver
-      when false
-        GuestMailer.send_to_not_attending(@guest).deliver 
-      end
+def deliver_mail guest
+  case guest.attending
+  when true
+    GuestMailer.send_to_attending(@guest).deliver
+  when false
+    GuestMailer.send_to_not_attending(@guest).deliver 
+  end
+end
+
+
+
+def verify_captcha
+  verify_recaptcha :private_key => AUTH_CONFIG['recaptcha']['private_key']
 end

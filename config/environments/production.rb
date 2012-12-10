@@ -86,4 +86,7 @@ Jash2012::Application.configure do
 
   config.action_mailer.perform_deliveries = true
   config.action_mailer.raise_delivery_errors = true
+  
+  ENV['RECAPTCHA_PUBLIC_KEY'] = AUTH_CONFIG['recaptcha']['public_key']
+  ENV['RECAPTCHA_PRIVATE_KEY'] = AUTH_CONFIG['recaptcha']['private_key']
 end

@@ -3,4 +3,7 @@ credentials:
   password: godisgreat
 email:
   username: mfcjashn2012@gmail.com
-  password: mckinseytcs  
+  password: mckinseytcs 
+recaptcha:
+  public_key: '6Lc1MtoSAAAAAAy9OFzEFYpxbdhQTF-ED_h2-jPq'
+  private_key: '6Lc1MtoSAAAAALBaO4aQjkt-W8pHMtEqAhf3QZQF' 
