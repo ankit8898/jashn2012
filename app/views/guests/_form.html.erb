@@ -4,7 +4,7 @@
 	<%= @guest.errors.full_messages.first %> <i class='icon-off'></i>
 </div>
 <%end%>
-<%= f.text_field :name ,:size => 50,:placeholder => 'Name' %> </br>
+<%= f.text_field :name ,:size => 50,:placeholder => 'Name' %>
 
 <%= f.phone_field :cell_num ,:placeholder => 'Mobile No '%></br>
 <%= f.text_field :email_id ,:size => 50,:placeholder => 'Email' %> </br>
@@ -20,6 +20,9 @@
 	<%= f.check_box :attending%> Attending ?
 </label>
 
-<%= f.submit 'Register',:class => 'btn btn-warning'%>
+<%= f.submit 'Register',:class => 'btn btn-warning'%> <i id="example" rel="popover" data-content="We Highly recommend you to use Firefox or Chrome. " data-original-title="Browser Issues ?"class='icon-info-sign'></i>
 <% end %>
+<script type="text/javascript">
+$('#example').popover();
 
+</script>

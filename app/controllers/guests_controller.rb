@@ -46,8 +46,8 @@ class GuestsController < ApplicationController
     @guest = Guest.new(params[:guest])
     respond_to do |format|
       if @guest.save
-        GuestMailer.send_mail(@guest).deliver
-        format.html { redirect_to @guest, notice: "We have been Notified.  Thank you Please find the complete list of attendes <a class='text-warning' href='#myModal' data-toggle='modal'>here</a>".html_safe}
+        deliver_mail(@guest)
+        format.html { redirect_to @guest, notice: "We have been Notified.  Thank you ! Please find the complete list of attendes <a class='text-warning' href='#myModal' data-toggle='modal'>here</a>".html_safe}
         format.json { render json: @guest, status: :created, location: @guest }
       else
         format.html { render action: "new" }
@@ -82,5 +82,14 @@ class GuestsController < ApplicationController
       format.html { redirect_to guests_url }
       format.json { head :no_content }
     end
+    end
   end
+
+   def deliver_mail guest
+      case guest.attending
+      when true
+        GuestMailer.send_to_attending(@guest).deliver
+      when false
+        GuestMailer.send_to_not_attending(@guest).deliver 
+      end
 end
