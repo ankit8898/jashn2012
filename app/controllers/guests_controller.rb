@@ -45,7 +45,7 @@ class GuestsController < ApplicationController
   def create
     @guest = Guest.new(params[:guest])
     respond_to do |format|
-      if @guest.save &&  verify_captcha
+      if verify_captcha(@guest) &&  @guest.save 
         deliver_mail(@guest)
         format.html { redirect_to @guest, notice: "We have been Notified.  Thank you ! Please find the complete list of attendes <a class='text-warning' href='#myModal' data-toggle='modal'>here</a>".html_safe}
         format.json { render json: @guest, status: :created, location: @guest }
@@ -95,7 +95,8 @@ def deliver_mail guest
 end
 
 
+private
 
-def verify_captcha
-  verify_recaptcha :private_key => AUTH_CONFIG['recaptcha']['private_key']
+def verify_captcha guest
+  verify_recaptcha(:model => guest, :message => "Oh! It's error with reCAPTCHA!" ,:private_key => AUTH_CONFIG['recaptcha']['private_key'])
 end
