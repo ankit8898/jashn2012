@@ -9,7 +9,7 @@ class Guest < ActiveRecord::Base
 			change_dir_for_avatars size
 			data =  attending
  			male_avatars, female_avatars = Dir.glob('m_*.jpg'), Dir.glob('f_*.jpg')
-			get_male_female_avatars male_avatars , female_avatars ,data
+			get_male_female_avatars male_avatars , female_avatars , data.shuffle
 		end
 
 		def get_male_female_avatars male_avatars , female_avatars , data
