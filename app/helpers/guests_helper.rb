@@ -4,13 +4,13 @@ module GuestsHelper
 		str = 'Sorry! Your '
 		a = Array.new
 		arr.each do |msg|
-		  a <<  msg.split(' ')[0]
+			a <<  msg.split(' ')[0]
 		end
 		(str + a.join(', ') + ' is Missing ').html_safe
 	end
 
 	def get_attendees 
-      Guest.assign_name_and_avatar('original')
+		Guest.assign_name_and_avatar('original')
 	end
 
 	def formatted_name name
@@ -20,7 +20,10 @@ module GuestsHelper
 	def formatted_guest_list name
 		str = name.capitalize + "<br> is Attending "
 		str.html_safe
-
+	end
+	
+	def image arr
+		arr ? "resized/#{arr[1]}" : 'resized/default_avatar.jpg'
 	end
 
 	def guests_attending 

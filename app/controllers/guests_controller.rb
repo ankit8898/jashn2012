@@ -75,7 +75,7 @@ class GuestsController < ApplicationController
   def list
    @guests = Guest.list
    render :layout => 'guest_list'
-  end
+ end
   # DELETE /guests/1
   # DELETE /guests/1.json
   def destroy
