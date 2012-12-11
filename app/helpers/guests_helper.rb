@@ -14,7 +14,7 @@ module GuestsHelper
 	end
 
 	def formatted_name name
-		name + " is Attending "
+		['Awesome', 'Woahhh', 'Ahaaaaa..', 'Cool','Beautiful', 'Amazing','Alarming','Beware','Stupendous','Excellent'].sample + '...   ' + name.capitalize + " is Attending "
 	end
 
 	def guests_attending 
