@@ -3057,3 +3057,621 @@ Compiled jquery-ui.min.js  (3ms)  (pid 685)
 Compiled jquery.min.js  (1ms)  (pid 685)
 Compiled twitter/bootstrap_ujs.js  (0ms)  (pid 685)
 Compiled coffee-script.js  (3ms)  (pid 685)
+Compiled jquery.js  (1ms)  (pid 12099)
+Compiled jquery_ujs.js  (0ms)  (pid 12099)
+Compiled bootstrap.js  (223ms)  (pid 12099)
+Compiled bootstrap.min.js  (7ms)  (pid 12099)
+Compiled guests.js  (13ms)  (pid 12099)
+Compiled application.js  (1378ms)  (pid 12099)
+Compiled bootstrap.css  (7ms)  (pid 12099)
+Compiled bootstrap.min.css  (7ms)  (pid 12099)
+Compiled application.css  (692ms)  (pid 12099)
+Compiled jquery-ui.js  (947ms)  (pid 12099)
+Compiled jquery-ui.min.js  (196ms)  (pid 12099)
+Compiled jquery.min.js  (1ms)  (pid 12099)
+Compiled coffee-script.js  (4ms)  (pid 12099)
+Compiled jquery.js  (3ms)  (pid 12099)
+Compiled jquery_ujs.js  (0ms)  (pid 12099)
+Compiled bootstrap.js  (111ms)  (pid 12099)
+Compiled bootstrap.min.js  (3ms)  (pid 12099)
+Compiled guests.js  (6ms)  (pid 12099)
+Compiled application.js  (2722ms)  (pid 12099)
+Compiled bootstrap.css  (5ms)  (pid 12099)
+Compiled bootstrap.min.css  (40ms)  (pid 12099)
+Compiled application.css  (538ms)  (pid 12099)
+Compiled jquery-ui.js  (22ms)  (pid 12099)
+Compiled jquery-ui.min.js  (3ms)  (pid 12099)
+Compiled jquery.min.js  (0ms)  (pid 12099)
+Compiled coffee-script.js  (2ms)  (pid 12099)
+Connecting to database specified by database.yml
+Migrating to CreateGuests (20121207033400)
+Migrating to AddSexToGuests (20121208110959)
+Migrating to AddEmailIdToGuests (20121209102630)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Started GET "/guests/guest_list" for 127.0.0.1 at 2012-12-11 16:29:45 +0530
+Processing by GuestsController#show as HTML
+  Parameters: {"id"=>"guest_list"}
+Completed 404 Not Found in 169ms
+
+ActiveRecord::RecordNotFound (Couldn't find Guest with id=guest_list):
+  app/controllers/guests_controller.rb:17:in `show'
+
+
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:29:53 +0530
+Processing by GuestsController#list as HTML
+Filter chain halted as #<Proc:0x9416dc0@/home/ankit/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.9/lib/action_controller/metal/http_authentication.rb:112> rendered or redirected
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:30:19 +0530
+Processing by GuestsController#list as HTML
+Completed 500 Internal Server Error in 178ms
+
+ActionView::MissingTemplate (Missing template guests/list, application/list with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder]}. Searched in:
+  * "/mnt/hgfs/Shared/jash2012-dev/app/views"
+):
+  app/controllers/guests_controller.rb:77:in `list'
+
+
+Connecting to database specified by database.yml
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:30:50 +0530
+Processing by GuestsController#list as HTML
+Completed 500 Internal Server Error in 121ms
+
+ActionView::MissingTemplate (Missing template guests/list, application/list with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder]}. Searched in:
+  * "/mnt/hgfs/Shared/jash2012-dev/app/views"
+):
+  app/controllers/guests_controller.rb:77:in `list'
+
+
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:30:58 +0530
+Processing by GuestsController#list as HTML
+Completed 500 Internal Server Error in 3ms
+
+ActionView::MissingTemplate (Missing template guests/list, application/list with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder]}. Searched in:
+  * "/mnt/hgfs/Shared/jash2012-dev/app/views"
+):
+  app/controllers/guests_controller.rb:77:in `list'
+
+
+Connecting to database specified by database.yml
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:31:25 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (58.3ms)
+Completed 200 OK in 249ms (Views: 85.3ms | ActiveRecord: 84.8ms)
+Started GET "/" for 127.0.0.1 at 2012-12-11 16:31:33 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (3.2ms)
+  Rendered guests/new.html.erb within layouts/application (17.9ms)
+  Rendered shared/_top_carousel.html.erb (1.2ms)
+  Rendered shared/_attendee.html.erb (38.8ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+  Rendered shared/_attending.html.erb (44.4ms)
+  Rendered shared/_attending_list.html.erb (56.0ms)
+  Rendered shared/_right_panel.html.erb (128.2ms)
+Completed 200 OK in 212ms (Views: 207.8ms | ActiveRecord: 0.6ms)
+Started GET "/" for 127.0.0.1 at 2012-12-11 16:33:44 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (2.7ms)
+  Rendered guests/new.html.erb within layouts/application (4.3ms)
+  Rendered shared/_top_carousel.html.erb (0.8ms)
+  Rendered shared/_attendee.html.erb (37.2ms)
+  Rendered shared/_footer.html.erb (0.1ms)
+  Rendered shared/_attending.html.erb (0.7ms)
+  Rendered shared/_attending_list.html.erb (1.5ms)
+  Rendered shared/_right_panel.html.erb (41.0ms)
+Completed 200 OK in 54ms (Views: 51.5ms | ActiveRecord: 0.9ms)
+Started POST "/guests" for 127.0.0.1 at 2012-12-11 16:34:02 +0530
+Processing by GuestsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dEYt6g5bSarQaBtFz4lRfojmBbUKwomwj/tAAzuSvgg=", "guest"=>{"name"=>"baba", "cell_num"=>"8787656782", "email_id"=>"ankit.gupta8898@gmail.com", "sex"=>"male", "attending"=>"1"}, "recaptcha_challenge_field"=>"03AHJ_VuvMLJMgXSdMGwCfB8zaoqPeoRKVDmwM-H957OZcbxuHwdTIBFGADozr3DC87zWEs2OoHnxA5bCfYum34GdufUrM-FpDYYIB3eLeNYT__1roikOkaag1KmdrBPnwsDfUAtQW3e6S343QQyfBVrvWAzu12awau18cPwkOE-0nEnp51AY51WA", "recaptcha_response_field"=>"late medamn", "commit"=>"Register"}
+  Rendered guests/_form.html.erb (2.1ms)
+  Rendered guests/new.html.erb within layouts/application (3.3ms)
+  Rendered shared/_top_carousel.html.erb (0.7ms)
+  Rendered shared/_attendee.html.erb (38.5ms)
+  Rendered shared/_footer.html.erb (0.1ms)
+  Rendered shared/_attending.html.erb (0.6ms)
+  Rendered shared/_attending_list.html.erb (1.3ms)
+  Rendered shared/_right_panel.html.erb (41.8ms)
+Completed 200 OK in 943ms (Views: 49.7ms | ActiveRecord: 0.3ms)
+Started POST "/guests" for 127.0.0.1 at 2012-12-11 16:34:17 +0530
+Processing by GuestsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dEYt6g5bSarQaBtFz4lRfojmBbUKwomwj/tAAzuSvgg=", "guest"=>{"name"=>"baba", "cell_num"=>"8787656782", "email_id"=>"ankit.gupta8898@gmail.com", "sex"=>"male", "attending"=>"1"}, "recaptcha_challenge_field"=>"03AHJ_VuuszCjn5InSQO4Bv_CDmagHaPsXXpeFx2NDuGd-cDl8bqcU6kwO9uY5srVeWaeUhXh_1n6oXIjL4zs5rAIgo124XbKSGRN-tqcGeYy4aD1_M-GD2_HaN3CkIYF2jyWw-BqzJ2_aaZ36T6BoI5Egsdf_TWHLbiFdHFgy2mwHpEXVsO967lQ", "recaptcha_response_field"=>"essence difuyst", "commit"=>"Register"}
+  Rendered guests/_form.html.erb (2.0ms)
+  Rendered guests/new.html.erb within layouts/application (3.4ms)
+  Rendered shared/_top_carousel.html.erb (0.7ms)
+  Rendered shared/_attendee.html.erb (39.8ms)
+  Rendered shared/_footer.html.erb (0.1ms)
+  Rendered shared/_attending.html.erb (0.6ms)
+  Rendered shared/_attending_list.html.erb (1.3ms)
+  Rendered shared/_right_panel.html.erb (43.2ms)
+Completed 200 OK in 2052ms (Views: 50.9ms | ActiveRecord: 0.3ms)
+Started POST "/guests" for 127.0.0.1 at 2012-12-11 16:34:30 +0530
+Processing by GuestsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dEYt6g5bSarQaBtFz4lRfojmBbUKwomwj/tAAzuSvgg=", "guest"=>{"name"=>"baba", "cell_num"=>"8787656782", "email_id"=>"ankit.gupta8898@gmail.com", "sex"=>"male", "attending"=>"1"}, "recaptcha_challenge_field"=>"03AHJ_VuusRrKZ1_Gmv2bkpMJjbqTHhLU5qML-aShEEOAsE94YhzHcuLIyBrjxgGKjm-apVvG13Q99ilb74rH36kk3sCI3YpeECeJVgFDv7YsMoQcYUUTvf69i9lZ-y19x_9Lcc044LwVU46l2oQmGl2RvQozzZ5mywk58tshaRHWK33R3b6VyiWU", "recaptcha_response_field"=>"agency singth", "commit"=>"Register"}
+  Rendered guest_mailer/send_to_attending.html.erb (0.5ms)
+
+Sent mail to ankit.gupta8898@gmail.com (30045ms)
+Completed 500 Internal Server Error in 30795ms
+
+Timeout::Error (execution expired):
+  app/controllers/guests_controller.rb:97:in `deliver_mail'
+  app/controllers/guests_controller.rb:49:in `block in create'
+  app/controllers/guests_controller.rb:47:in `create'
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-11 16:35:08 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (2.0ms)
+  Rendered guests/new.html.erb within layouts/application (3.3ms)
+  Rendered shared/_top_carousel.html.erb (0.7ms)
+  Rendered shared/_attendee.html.erb (43.4ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered shared/_attending.html.erb (1.0ms)
+  Rendered shared/_attending_list.html.erb (1.7ms)
+  Rendered shared/_right_panel.html.erb (50.3ms)
+Completed 200 OK in 66ms (Views: 63.5ms | ActiveRecord: 0.8ms)
+Started POST "/guests" for 127.0.0.1 at 2012-12-11 16:35:17 +0530
+Processing by GuestsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dEYt6g5bSarQaBtFz4lRfojmBbUKwomwj/tAAzuSvgg=", "guest"=>{"name"=>"baba", "cell_num"=>"9898767892", "email_id"=>"an", "attending"=>"0"}, "recaptcha_challenge_field"=>"03AHJ_VutNLVWYDM6d4rByoXf2QKPD2jxOl24rkD5ST9PhDzr7L7-MegIoO5UbXOxvlYKJdz6Dk4jtIuySCqHxpA7GVfvKxf_mohiqLkCs-1YUhAJqcw-MM8DTeT9ElqoS3cNzn6vxQVeV-JyLajl5-y4sOEDr0Ma4TS3a1Yg_9KUITt_qtYh40wZUaZtcE0oSsrOYnLmy4Jkp", "recaptcha_response_field"=>"", "commit"=>"Register"}
+  Rendered guests/_form.html.erb (1.8ms)
+  Rendered guests/new.html.erb within layouts/application (3.1ms)
+  Rendered shared/_top_carousel.html.erb (0.7ms)
+  Rendered shared/_attendee.html.erb (39.7ms)
+  Rendered shared/_footer.html.erb (0.1ms)
+  Rendered shared/_attending.html.erb (0.6ms)
+  Rendered shared/_attending_list.html.erb (1.4ms)
+  Rendered shared/_right_panel.html.erb (43.3ms)
+Completed 200 OK in 900ms (Views: 51.7ms | ActiveRecord: 0.2ms)
+Started POST "/guests" for 127.0.0.1 at 2012-12-11 16:35:31 +0530
+Processing by GuestsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dEYt6g5bSarQaBtFz4lRfojmBbUKwomwj/tAAzuSvgg=", "guest"=>{"name"=>"baba", "cell_num"=>"9898767892", "email_id"=>"ankit.gupta8898@gmail.com", "sex"=>"male", "attending"=>"1"}, "recaptcha_challenge_field"=>"03AHJ_VuvpsMm-pR_MsTV-He84O33vP8VlGMucklXdpnJ_kpfXeb-n_QGP3nxUYGf0gaR8ZvMnTWQbRIEQzqaNPfEFDE_de4SXyhfzg1EAvjzSgSb1B278dQ62xvSrBjr7zRjzJ08pN7JqQWpf83O3Qujcjo4Swq5f6hfolwBEdA1uE_QDH6IabDiJQLb9EzzQtC5ctkcDhZsQ", "recaptcha_response_field"=>"granslaj wall", "commit"=>"Register"}
+  Rendered guest_mailer/send_to_attending.html.erb (0.2ms)
+
+Sent mail to ankit.gupta8898@gmail.com (30007ms)
+Completed 500 Internal Server Error in 30754ms
+
+Timeout::Error (execution expired):
+  app/controllers/guests_controller.rb:97:in `deliver_mail'
+  app/controllers/guests_controller.rb:49:in `block in create'
+  app/controllers/guests_controller.rb:47:in `create'
+
+
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2012-12-11 16:36:26 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (2.8ms)
+  Rendered guests/new.html.erb within layouts/application (43.6ms)
+  Rendered shared/_top_carousel.html.erb (1.0ms)
+  Rendered shared/_attendee.html.erb (48.3ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+  Rendered shared/_attending.html.erb (37.6ms)
+  Rendered shared/_attending_list.html.erb (49.7ms)
+  Rendered shared/_right_panel.html.erb (137.4ms)
+Completed 200 OK in 347ms (Views: 231.5ms | ActiveRecord: 24.4ms)
+Started POST "/guests" for 127.0.0.1 at 2012-12-11 16:36:50 +0530
+Processing by GuestsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dEYt6g5bSarQaBtFz4lRfojmBbUKwomwj/tAAzuSvgg=", "guest"=>{"name"=>"nama", "cell_num"=>"87867485234", "email_id"=>"ankit.gupta8898@gmail.com", "sex"=>"male", "attending"=>"1"}, "recaptcha_challenge_field"=>"03AHJ_VutcDMrSEmNT4SpLeEK_peBONTsAO0mZJBe5oTW4e7Cq-ZsckqDvZxY-qqZoM7ROXgwsmA6vuuHP8tVh7O1Fp3UTUiLBISBw8pXIAVdHvb_5oly7P9ulT_5nub0zk-hlst9GIWWL9Cch_Z7e7ieiIDrQG7ZhD3CIP5__Ou_yIV1GBgG99jE", "recaptcha_response_field"=>"dRmuser ran", "commit"=>"Register"}
+  Rendered guests/_form.html.erb (2.2ms)
+  Rendered guests/new.html.erb within layouts/application (3.6ms)
+  Rendered shared/_top_carousel.html.erb (0.7ms)
+  Rendered shared/_attendee.html.erb (55.8ms)
+  Rendered shared/_footer.html.erb (0.1ms)
+  Rendered shared/_attending.html.erb (0.7ms)
+  Rendered shared/_attending_list.html.erb (1.3ms)
+  Rendered shared/_right_panel.html.erb (59.3ms)
+Completed 200 OK in 723ms (Views: 67.6ms | ActiveRecord: 1.0ms)
+Started POST "/guests" for 127.0.0.1 at 2012-12-11 16:37:10 +0530
+Processing by GuestsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dEYt6g5bSarQaBtFz4lRfojmBbUKwomwj/tAAzuSvgg=", "guest"=>{"name"=>"nama", "cell_num"=>"8786748523", "email_id"=>"ankit.gupta8898@gmail.com", "sex"=>"male", "attending"=>"1"}, "recaptcha_challenge_field"=>"03AHJ_VuvtqGB6hiwnJjAFLO01OXaPkgUtdAJhsNSbBRT_80U5cYAW-7XruUNeZMroBvQrd0Gv6XAufL1dc0Oh19AFIpzd_8yqX05JKgHu-Rb3YVXzAjJBj_wd-4K0WJ7xb5FWLHHNuzKxwBSa71hHM9dbuAoIR23CRJ299eDFokv4NesLsg838cY", "recaptcha_response_field"=>"eywordar the", "commit"=>"Register"}
+Redirected to http://localhost:3000/guests/9
+Completed 302 Found in 711ms (ActiveRecord: 13.8ms)
+Started GET "/guests/9" for 127.0.0.1 at 2012-12-11 16:37:11 +0530
+Processing by GuestsController#show as HTML
+  Parameters: {"id"=>"9"}
+  Rendered guests/show.html.erb within layouts/application (0.5ms)
+  Rendered shared/_top_carousel.html.erb (0.7ms)
+  Rendered shared/_attendee.html.erb (52.7ms)
+  Rendered shared/_footer.html.erb (0.1ms)
+  Rendered shared/_attending.html.erb (0.9ms)
+  Rendered shared/_attending_list.html.erb (1.5ms)
+  Rendered shared/_right_panel.html.erb (56.4ms)
+Completed 200 OK in 85ms (Views: 79.5ms | ActiveRecord: 0.8ms)
+Started GET "/" for 127.0.0.1 at 2012-12-11 16:38:05 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (1.5ms)
+  Rendered guests/new.html.erb within layouts/application (2.3ms)
+  Rendered shared/_top_carousel.html.erb (0.4ms)
+  Rendered shared/_attendee.html.erb (63.4ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered shared/_attending.html.erb (6.3ms)
+  Rendered shared/_attending_list.html.erb (19.9ms)
+  Rendered shared/_right_panel.html.erb (85.7ms)
+Completed 200 OK in 93ms (Views: 85.9ms | ActiveRecord: 6.0ms)
+Started GET "/" for 127.0.0.1 at 2012-12-11 16:38:06 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (1.2ms)
+  Rendered guests/new.html.erb within layouts/application (10.5ms)
+  Rendered shared/_top_carousel.html.erb (0.5ms)
+  Rendered shared/_attendee.html.erb (47.0ms)
+  Rendered shared/_footer.html.erb (0.1ms)
+  Rendered shared/_attending.html.erb (0.6ms)
+  Rendered shared/_attending_list.html.erb (1.3ms)
+  Rendered shared/_right_panel.html.erb (50.3ms)
+Completed 200 OK in 84ms (Views: 82.8ms | ActiveRecord: 0.4ms)
+Started POST "/guests" for 127.0.0.1 at 2012-12-11 16:38:24 +0530
+Processing by GuestsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dEYt6g5bSarQaBtFz4lRfojmBbUKwomwj/tAAzuSvgg=", "guest"=>{"name"=>"manish", "cell_num"=>"8786567322", "email_id"=>"ankit.gupta8898@gmail.com", "sex"=>"female", "attending"=>"1"}, "recaptcha_challenge_field"=>"03AHJ_VutzVum7lhAKYpVOo7ygQ4gYvU7yoiBGtMWzDzMOvsAgDYpy4iu_aYX1YZP8SVjn4R7Tjul8ADs01t-G8eTNNOn4kqT0FJehfYGzIRPUyNylJ6NRfjAIDZ_gaxROLXf42zwQpO1pApBmGFmgTZRRYV4RaRRvllOl78KD_W0ZEjWpTRR9uqg", "recaptcha_response_field"=>"process acripab", "commit"=>"Register"}
+Redirected to http://localhost:3000/guests/10
+Completed 302 Found in 923ms (ActiveRecord: 110.0ms)
+Started GET "/guests/10" for 127.0.0.1 at 2012-12-11 16:38:25 +0530
+Processing by GuestsController#show as HTML
+  Parameters: {"id"=>"10"}
+  Rendered guests/show.html.erb within layouts/application (0.1ms)
+  Rendered shared/_top_carousel.html.erb (0.5ms)
+  Rendered shared/_attendee.html.erb (48.2ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered shared/_attending.html.erb (0.8ms)
+  Rendered shared/_attending_list.html.erb (1.5ms)
+  Rendered shared/_right_panel.html.erb (52.4ms)
+Completed 200 OK in 58ms (Views: 56.2ms | ActiveRecord: 0.7ms)
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2012-12-11 16:38:45 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (2.8ms)
+  Rendered guests/new.html.erb within layouts/application (41.8ms)
+  Rendered shared/_top_carousel.html.erb (1.0ms)
+  Rendered shared/_attendee.html.erb (58.7ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+  Rendered shared/_attending.html.erb (33.1ms)
+  Rendered shared/_attending_list.html.erb (44.6ms)
+  Rendered shared/_right_panel.html.erb (141.6ms)
+Completed 200 OK in 368ms (Views: 232.9ms | ActiveRecord: 14.0ms)
+Started GET "/" for 127.0.0.1 at 2012-12-11 16:38:45 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (1.4ms)
+  Rendered guests/new.html.erb within layouts/application (2.2ms)
+  Rendered shared/_top_carousel.html.erb (0.5ms)
+  Rendered shared/_attendee.html.erb (51.7ms)
+  Rendered shared/_footer.html.erb (0.1ms)
+  Rendered shared/_attending.html.erb (0.7ms)
+  Rendered shared/_attending_list.html.erb (1.5ms)
+  Rendered shared/_right_panel.html.erb (55.3ms)
+Completed 200 OK in 62ms (Views: 60.9ms | ActiveRecord: 0.2ms)
+Started POST "/guests" for 127.0.0.1 at 2012-12-11 16:39:22 +0530
+Processing by GuestsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dEYt6g5bSarQaBtFz4lRfojmBbUKwomwj/tAAzuSvgg=", "guest"=>{"name"=>"prajakta", "cell_num"=>"6784453235", "email_id"=>"ankit.gupta8898@gmail.com", "sex"=>"male", "attending"=>"1"}, "recaptcha_challenge_field"=>"03AHJ_VuvQdhCLKMUetZFqDQch7aegzveS8syIbdc_LmwSMUFxkFx-lL4YUdbHJ1wvYsZKw34CdSsRbCwD6P5GgpNcM7SaWl7ZHK_mPq_0o5GDk37Gnfwizqk6KA1BfJHh0fjgcfcI8Q1TwXgFdW_eD_MdHohXILLiR_3z7ww-XXHi1yHjoVMXrvc", "recaptcha_response_field"=>"sho rsvuaea", "commit"=>"Register"}
+Redirected to http://localhost:3000/guests/11
+Completed 302 Found in 724ms (ActiveRecord: 6.8ms)
+Started GET "/guests/11" for 127.0.0.1 at 2012-12-11 16:39:23 +0530
+Processing by GuestsController#show as HTML
+  Parameters: {"id"=>"11"}
+  Rendered guests/show.html.erb within layouts/application (0.4ms)
+  Rendered shared/_top_carousel.html.erb (0.5ms)
+  Rendered shared/_attendee.html.erb (46.2ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered shared/_attending.html.erb (1.0ms)
+  Rendered shared/_attending_list.html.erb (1.9ms)
+  Rendered shared/_right_panel.html.erb (50.6ms)
+Completed 200 OK in 69ms (Views: 64.7ms | ActiveRecord: 0.7ms)
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:39:25 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (97.3ms)
+Completed 500 Internal Server Error in 118ms
+
+ActionView::Template::Error (resized/m_avatar14.jpg isn't precompiled):
+    2: <table class="table table-bordered">
+    3:   <% for guest_arr in grouped_attendees %>
+    4:   <tr>
+    5:   	 <td> <%= image_tag guest_arr[0] ? "resized/#{guest_arr[0][1]}" : 'resized/default_avatar.jpg' ,class: 'img-polaroid' %></td>
+    6:   	 <td> <%= image_tag guest_arr[1] ? "resized/#{guest_arr[1][1]}" : 'resized/default_avatar.jpg',class: 'img-polaroid' %></td>
+    7:   	 <td> <%= image_tag guest_arr[2] ? "resized/#{guest_arr[2][1]}" : 'resized/default_avatar.jpg' ,class: 'img-polaroid' %></td>
+    8:   	 <td> <%= image_tag guest_arr[3] ? "resized/#{guest_arr[3][1]}" : 'resized/default_avatar.jpg',class: 'img-polaroid' %></td>
+  app/views/guests/list.html.erb:5:in `block in _app_views_guests_list_html_erb___848274468_89214120'
+  app/views/guests/list.html.erb:3:in `each'
+  app/views/guests/list.html.erb:3:in `_app_views_guests_list_html_erb___848274468_89214120'
+  app/controllers/guests_controller.rb:77:in `list'
+
+
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:40:54 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (51.6ms)
+Completed 200 OK in 69ms (Views: 54.3ms | ActiveRecord: 2.4ms)
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:40:58 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (60.1ms)
+Completed 500 Internal Server Error in 63ms
+
+ActionView::Template::Error (resized/m_avatar14.jpg isn't precompiled):
+    2: <table class="table table-bordered">
+    3:   <% for guest_arr in grouped_attendees %>
+    4:   <tr>
+    5:   	 <td> <%= image_tag guest_arr[0] ? "resized/#{guest_arr[0][1]}" : 'resized/default_avatar.jpg' ,class: 'img-polaroid' %></td>
+    6:   	 <td> <%= image_tag guest_arr[1] ? "resized/#{guest_arr[1][1]}" : 'resized/default_avatar.jpg',class: 'img-polaroid' %></td>
+    7:   	 <td> <%= image_tag guest_arr[2] ? "resized/#{guest_arr[2][1]}" : 'resized/default_avatar.jpg' ,class: 'img-polaroid' %></td>
+    8:   	 <td> <%= image_tag guest_arr[3] ? "resized/#{guest_arr[3][1]}" : 'resized/default_avatar.jpg',class: 'img-polaroid' %></td>
+  app/views/guests/list.html.erb:5:in `block in _app_views_guests_list_html_erb___848274468_89214120'
+  app/views/guests/list.html.erb:3:in `each'
+  app/views/guests/list.html.erb:3:in `_app_views_guests_list_html_erb___848274468_89214120'
+  app/controllers/guests_controller.rb:77:in `list'
+
+
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:40:59 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (59.5ms)
+Completed 500 Internal Server Error in 62ms
+
+ActionView::Template::Error (resized/m_avatar14.jpg isn't precompiled):
+    5:   	 <td> <%= image_tag guest_arr[0] ? "resized/#{guest_arr[0][1]}" : 'resized/default_avatar.jpg' ,class: 'img-polaroid' %></td>
+    6:   	 <td> <%= image_tag guest_arr[1] ? "resized/#{guest_arr[1][1]}" : 'resized/default_avatar.jpg',class: 'img-polaroid' %></td>
+    7:   	 <td> <%= image_tag guest_arr[2] ? "resized/#{guest_arr[2][1]}" : 'resized/default_avatar.jpg' ,class: 'img-polaroid' %></td>
+    8:   	 <td> <%= image_tag guest_arr[3] ? "resized/#{guest_arr[3][1]}" : 'resized/default_avatar.jpg',class: 'img-polaroid' %></td>
+    9:   </tr>
+    10:   <tr>
+    11:   	 <td> <strong><%= guest_arr[0] ? formatted_guest_list(guest_arr[0][0]) : 'It can be you!!' %><i class='icon-ok'></i></strong></td>
+  app/views/guests/list.html.erb:8:in `block in _app_views_guests_list_html_erb___848274468_89214120'
+  app/views/guests/list.html.erb:3:in `each'
+  app/views/guests/list.html.erb:3:in `_app_views_guests_list_html_erb___848274468_89214120'
+  app/controllers/guests_controller.rb:77:in `list'
+
+
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:41:00 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (46.2ms)
+Completed 200 OK in 49ms (Views: 47.9ms | ActiveRecord: 0.1ms)
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:41:01 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (57.6ms)
+Completed 500 Internal Server Error in 60ms
+
+ActionView::Template::Error (resized/m_avatar14.jpg isn't precompiled):
+    3:   <% for guest_arr in grouped_attendees %>
+    4:   <tr>
+    5:   	 <td> <%= image_tag guest_arr[0] ? "resized/#{guest_arr[0][1]}" : 'resized/default_avatar.jpg' ,class: 'img-polaroid' %></td>
+    6:   	 <td> <%= image_tag guest_arr[1] ? "resized/#{guest_arr[1][1]}" : 'resized/default_avatar.jpg',class: 'img-polaroid' %></td>
+    7:   	 <td> <%= image_tag guest_arr[2] ? "resized/#{guest_arr[2][1]}" : 'resized/default_avatar.jpg' ,class: 'img-polaroid' %></td>
+    8:   	 <td> <%= image_tag guest_arr[3] ? "resized/#{guest_arr[3][1]}" : 'resized/default_avatar.jpg',class: 'img-polaroid' %></td>
+    9:   </tr>
+  app/views/guests/list.html.erb:6:in `block in _app_views_guests_list_html_erb___848274468_89214120'
+  app/views/guests/list.html.erb:3:in `each'
+  app/views/guests/list.html.erb:3:in `_app_views_guests_list_html_erb___848274468_89214120'
+  app/controllers/guests_controller.rb:77:in `list'
+
+
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:41:02 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (63.4ms)
+Completed 500 Internal Server Error in 66ms
+
+ActionView::Template::Error (resized/m_avatar14.jpg isn't precompiled):
+    3:   <% for guest_arr in grouped_attendees %>
+    4:   <tr>
+    5:   	 <td> <%= image_tag guest_arr[0] ? "resized/#{guest_arr[0][1]}" : 'resized/default_avatar.jpg' ,class: 'img-polaroid' %></td>
+    6:   	 <td> <%= image_tag guest_arr[1] ? "resized/#{guest_arr[1][1]}" : 'resized/default_avatar.jpg',class: 'img-polaroid' %></td>
+    7:   	 <td> <%= image_tag guest_arr[2] ? "resized/#{guest_arr[2][1]}" : 'resized/default_avatar.jpg' ,class: 'img-polaroid' %></td>
+    8:   	 <td> <%= image_tag guest_arr[3] ? "resized/#{guest_arr[3][1]}" : 'resized/default_avatar.jpg',class: 'img-polaroid' %></td>
+    9:   </tr>
+  app/views/guests/list.html.erb:6:in `block in _app_views_guests_list_html_erb___848274468_89214120'
+  app/views/guests/list.html.erb:3:in `each'
+  app/views/guests/list.html.erb:3:in `_app_views_guests_list_html_erb___848274468_89214120'
+  app/controllers/guests_controller.rb:77:in `list'
+
+
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:41:03 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (50.4ms)
+Completed 200 OK in 54ms (Views: 52.1ms | ActiveRecord: 0.1ms)
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:41:10 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (51.1ms)
+Completed 200 OK in 54ms (Views: 52.8ms | ActiveRecord: 0.2ms)
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:41:12 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (44.8ms)
+Completed 200 OK in 48ms (Views: 46.4ms | ActiveRecord: 0.1ms)
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:41:13 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (50.5ms)
+Completed 200 OK in 54ms (Views: 52.1ms | ActiveRecord: 0.1ms)
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:41:33 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (58.8ms)
+Completed 500 Internal Server Error in 62ms
+
+ActionView::Template::Error (resized/m_avatar14.jpg isn't precompiled):
+    4:   <tr>
+    5:   	 <td> <%= image_tag guest_arr[0] ? "resized/#{guest_arr[0][1]}" : 'resized/default_avatar.jpg' ,class: 'img-polaroid' %></td>
+    6:   	 <td> <%= image_tag guest_arr[1] ? "resized/#{guest_arr[1][1]}" : 'resized/default_avatar.jpg',class: 'img-polaroid' %></td>
+    7:   	 <td> <%= image_tag guest_arr[2] ? "resized/#{guest_arr[2][1]}" : 'resized/default_avatar.jpg' ,class: 'img-polaroid' %></td>
+    8:   	 <td> <%= image_tag guest_arr[3] ? "resized/#{guest_arr[3][1]}" : 'resized/default_avatar.jpg',class: 'img-polaroid' %></td>
+    9:   </tr>
+    10:   <tr>
+  app/views/guests/list.html.erb:7:in `block in _app_views_guests_list_html_erb___848274468_89214120'
+  app/views/guests/list.html.erb:3:in `each'
+  app/views/guests/list.html.erb:3:in `_app_views_guests_list_html_erb___848274468_89214120'
+  app/controllers/guests_controller.rb:77:in `list'
+
+
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:41:35 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (58.9ms)
+Completed 200 OK in 62ms (Views: 60.6ms | ActiveRecord: 0.2ms)
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:41:42 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (48.2ms)
+Completed 200 OK in 52ms (Views: 50.0ms | ActiveRecord: 0.1ms)
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:41:46 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (59.0ms)
+Completed 500 Internal Server Error in 62ms
+
+ActionView::Template::Error (resized/m_avatar14.jpg isn't precompiled):
+    3:   <% for guest_arr in grouped_attendees %>
+    4:   <tr>
+    5:   	 <td> <%= image_tag guest_arr[0] ? "resized/#{guest_arr[0][1]}" : 'resized/default_avatar.jpg' ,class: 'img-polaroid' %></td>
+    6:   	 <td> <%= image_tag guest_arr[1] ? "resized/#{guest_arr[1][1]}" : 'resized/default_avatar.jpg',class: 'img-polaroid' %></td>
+    7:   	 <td> <%= image_tag guest_arr[2] ? "resized/#{guest_arr[2][1]}" : 'resized/default_avatar.jpg' ,class: 'img-polaroid' %></td>
+    8:   	 <td> <%= image_tag guest_arr[3] ? "resized/#{guest_arr[3][1]}" : 'resized/default_avatar.jpg',class: 'img-polaroid' %></td>
+    9:   </tr>
+  app/views/guests/list.html.erb:6:in `block in _app_views_guests_list_html_erb___848274468_89214120'
+  app/views/guests/list.html.erb:3:in `each'
+  app/views/guests/list.html.erb:3:in `_app_views_guests_list_html_erb___848274468_89214120'
+  app/controllers/guests_controller.rb:77:in `list'
+
+
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:42:53 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (48.1ms)
+Completed 200 OK in 52ms (Views: 50.2ms | ActiveRecord: 0.1ms)
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:42:59 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (59.3ms)
+Completed 500 Internal Server Error in 62ms
+
+ActionView::Template::Error (resized/m_avatar14.jpg isn't precompiled):
+    3:   <% for guest_arr in grouped_attendees %>
+    4:   <tr>
+    5:   	 <td> <%= image_tag guest_arr[0] ? "resized/#{guest_arr[0][1]}" : 'resized/default_avatar.jpg' ,class: 'img-polaroid' %></td>
+    6:   	 <td> <%= image_tag guest_arr[1] ? "resized/#{guest_arr[1][1]}" : 'resized/default_avatar.jpg',class: 'img-polaroid' %></td>
+    7:   	 <td> <%= image_tag guest_arr[2] ? "resized/#{guest_arr[2][1]}" : 'resized/default_avatar.jpg' ,class: 'img-polaroid' %></td>
+    8:   	 <td> <%= image_tag guest_arr[3] ? "resized/#{guest_arr[3][1]}" : 'resized/default_avatar.jpg',class: 'img-polaroid' %></td>
+    9:   </tr>
+  app/views/guests/list.html.erb:6:in `block in _app_views_guests_list_html_erb___848274468_89214120'
+  app/views/guests/list.html.erb:3:in `each'
+  app/views/guests/list.html.erb:3:in `_app_views_guests_list_html_erb___848274468_89214120'
+  app/controllers/guests_controller.rb:77:in `list'
+
+
+Compiled jquery.js  (3ms)  (pid 12534)
+Compiled jquery_ujs.js  (0ms)  (pid 12534)
+Compiled bootstrap.js  (102ms)  (pid 12534)
+Compiled bootstrap.min.js  (3ms)  (pid 12534)
+Compiled guests.js  (3ms)  (pid 12534)
+Compiled application.js  (739ms)  (pid 12534)
+Compiled bootstrap.css  (3ms)  (pid 12534)
+Compiled bootstrap.min.css  (6ms)  (pid 12534)
+Compiled application.css  (290ms)  (pid 12534)
+Compiled jquery-ui.js  (14ms)  (pid 12534)
+Compiled jquery-ui.min.js  (3ms)  (pid 12534)
+Compiled jquery.min.js  (1ms)  (pid 12534)
+Compiled coffee-script.js  (1ms)  (pid 12534)
+Compiled jquery.js  (3ms)  (pid 12534)
+Compiled jquery_ujs.js  (0ms)  (pid 12534)
+Compiled bootstrap.js  (91ms)  (pid 12534)
+Compiled bootstrap.min.js  (3ms)  (pid 12534)
+Compiled guests.js  (3ms)  (pid 12534)
+Compiled application.js  (580ms)  (pid 12534)
+Compiled bootstrap.css  (7ms)  (pid 12534)
+Compiled bootstrap.min.css  (7ms)  (pid 12534)
+Compiled application.css  (628ms)  (pid 12534)
+Compiled jquery-ui.js  (8ms)  (pid 12534)
+Compiled jquery-ui.min.js  (5ms)  (pid 12534)
+Compiled jquery.min.js  (0ms)  (pid 12534)
+Compiled coffee-script.js  (1ms)  (pid 12534)
+Connecting to database specified by database.yml
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:45:41 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (58.2ms)
+Completed 200 OK in 164ms (Views: 87.1ms | ActiveRecord: 1.8ms)
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:45:41 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (38.1ms)
+Completed 200 OK in 42ms (Views: 40.0ms | ActiveRecord: 0.1ms)
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:45:42 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (31.6ms)
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.1ms)
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:45:44 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (45.0ms)
+Completed 200 OK in 48ms (Views: 46.7ms | ActiveRecord: 0.1ms)
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:45:45 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (39.7ms)
+Completed 200 OK in 43ms (Views: 41.4ms | ActiveRecord: 0.2ms)
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:45:46 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (40.6ms)
+Completed 200 OK in 44ms (Views: 42.4ms | ActiveRecord: 0.3ms)
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:45:47 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (34.9ms)
+Completed 200 OK in 38ms (Views: 36.9ms | ActiveRecord: 0.1ms)
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:45:47 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (39.1ms)
+Completed 200 OK in 42ms (Views: 40.8ms | ActiveRecord: 0.1ms)
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:45:48 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (34.2ms)
+Completed 200 OK in 38ms (Views: 35.9ms | ActiveRecord: 0.3ms)
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:45:48 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (40.2ms)
+Completed 200 OK in 44ms (Views: 42.0ms | ActiveRecord: 0.1ms)
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:45:49 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (38.7ms)
+Completed 200 OK in 42ms (Views: 40.5ms | ActiveRecord: 0.1ms)
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:45:49 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (35.1ms)
+Completed 200 OK in 39ms (Views: 36.8ms | ActiveRecord: 0.4ms)
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:45:50 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (35.9ms)
+Completed 200 OK in 39ms (Views: 37.7ms | ActiveRecord: 0.2ms)
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:45:50 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (52.6ms)
+Completed 200 OK in 55ms (Views: 54.3ms | ActiveRecord: 0.1ms)
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:45:51 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (39.8ms)
+Completed 200 OK in 44ms (Views: 41.8ms | ActiveRecord: 0.2ms)
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:45:51 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (31.5ms)
+Completed 200 OK in 35ms (Views: 33.8ms | ActiveRecord: 0.2ms)
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:45:53 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (34.8ms)
+Completed 200 OK in 40ms (Views: 38.1ms | ActiveRecord: 0.1ms)
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:45:54 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (38.1ms)
+Completed 200 OK in 41ms (Views: 39.8ms | ActiveRecord: 0.1ms)
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:45:54 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (35.8ms)
+Completed 200 OK in 39ms (Views: 37.5ms | ActiveRecord: 0.2ms)
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:45:55 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (36.1ms)
+Completed 200 OK in 39ms (Views: 37.8ms | ActiveRecord: 0.2ms)
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2012-12-11 16:46:19 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (2.8ms)
+  Rendered guests/new.html.erb within layouts/application (42.8ms)
+  Rendered shared/_top_carousel.html.erb (1.1ms)
+  Rendered shared/_attendee.html.erb (45.7ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered shared/_attending.html.erb (33.1ms)
+  Rendered shared/_attending_list.html.erb (49.8ms)
+  Rendered shared/_right_panel.html.erb (128.6ms)
+Completed 200 OK in 335ms (Views: 220.1ms | ActiveRecord: 37.6ms)
+Started GET "/" for 127.0.0.1 at 2012-12-11 16:46:19 +0530
+Processing by GuestsController#new as HTML
+  Rendered guests/_form.html.erb (1.3ms)
+  Rendered guests/new.html.erb within layouts/application (2.1ms)
+  Rendered shared/_top_carousel.html.erb (0.5ms)
+  Rendered shared/_attendee.html.erb (43.4ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered shared/_attending.html.erb (0.7ms)
+  Rendered shared/_attending_list.html.erb (1.3ms)
+  Rendered shared/_right_panel.html.erb (47.0ms)
+Completed 200 OK in 54ms (Views: 52.3ms | ActiveRecord: 0.2ms)
+Started GET "/guests/list" for 127.0.0.1 at 2012-12-11 16:46:25 +0530
+Processing by GuestsController#list as HTML
+  Rendered guests/list.html.erb within layouts/guest_list (95.3ms)
+Completed 200 OK in 121ms (Views: 119.2ms | ActiveRecord: 0.1ms)

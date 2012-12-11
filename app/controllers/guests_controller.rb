@@ -1,7 +1,7 @@
 class GuestsController < ApplicationController
   # GET /guests
   # GET /guests.json
-  http_basic_authenticate_with :name => AUTH_CONFIG['credentials']['username'] ,:password => AUTH_CONFIG['credentials']['password'], :except => [:new,:show,:create]
+  http_basic_authenticate_with :name => AUTH_CONFIG['credentials']['username'] ,:password => AUTH_CONFIG['credentials']['password'], :except => [:new,:show,:create,:list]
   def index
     @guests = Guest.all
 
@@ -46,8 +46,8 @@ class GuestsController < ApplicationController
     @guest = Guest.new(params[:guest])
     respond_to do |format|
       if verify_captcha(@guest) &&  @guest.save 
-        deliver_mail(@guest)
-        format.html { redirect_to @guest, notice: "We have been Notified.  Thank you ! Please find the complete list of attendes <a class='text-warning' href='#myModal' data-toggle='modal'>here</a>".html_safe}
+        #deliver_mail(@guest)
+        format.html { redirect_to @guest, notice: "We have been Notified.  Thank you ! Please find the complete list of attendes #{view_context.link_to('here', list_guests_url, target: '_blank') }.".html_safe}
         format.json { render json: @guest, status: :created, location: @guest }
       else
         format.html { render action: "new" }
@@ -71,7 +71,11 @@ class GuestsController < ApplicationController
       end
     end
   end
-
+  
+  def list
+    @guests = Guest.in_groups
+   render :layout => 'guest_list'
+  end
   # DELETE /guests/1
   # DELETE /guests/1.json
   def destroy
@@ -84,6 +88,8 @@ class GuestsController < ApplicationController
     end
   end
 end
+
+
 
 def deliver_mail guest
   case guest.attending

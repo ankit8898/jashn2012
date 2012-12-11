@@ -1,5 +1,9 @@
 Jash2012::Application.routes.draw do
-  resources :guests
+  resources :guests do
+    collection do
+         get 'list'
+      end
+  end
 
 
   # The priority is based upon order of creation:

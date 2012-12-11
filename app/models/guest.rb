@@ -5,10 +5,15 @@ class Guest < ActiveRecord::Base
 	validates :email_id , format: {with: /\A[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]+\z/, message: "is inValid"}
     scope :attending , -> {where(attending: true)}
 	class << self
-      def assign_name_and_avatar
+      def assign_name_and_avatar size
 		 hsh =  HashWithIndifferentAccess.new
 		 begin
-		  Dir.chdir('app/assets/images')
+          case size
+           when 'original'
+		     Dir.chdir('app/assets/images')
+		    when 'resized' 
+		     Dir.chdir('app/assets/images/resized')	
+		   end 	
 		 rescue
 		  Dir
 		end
@@ -31,6 +36,11 @@ class Guest < ActiveRecord::Base
 	    male_data = opts[:all_data].select {|data| data.sex == 'male'}
 	    male_data.each {|dt| hsh[:male]<< [dt.name,opts[:male_avatars].sample]}
 	    hsh[:male]
+	 end
+
+	 def in_groups
+	 	grouped = all.each_slice(4).to_a
+
 	 end
      
      def female_avatar_details opts = {}

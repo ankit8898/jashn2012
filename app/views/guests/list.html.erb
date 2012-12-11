@@ -1,0 +1,17 @@
+<h1> Our Guest List <i class='icon-star'></i></h1>
+<table class="table table-bordered">
+  <% for guest_arr in grouped_attendees %>
+  <tr>
+  	 <td> <%= image_tag guest_arr[0] ? "resized/#{guest_arr[0][1]}" : 'resized/default_avatar.jpg' ,class: 'img-polaroid' %></td>
+  	 <td> <%= image_tag guest_arr[1] ? "resized/#{guest_arr[1][1]}" : 'resized/default_avatar.jpg',class: 'img-polaroid' %></td>
+  	 <td> <%= image_tag guest_arr[2] ? "resized/#{guest_arr[2][1]}" : 'resized/default_avatar.jpg' ,class: 'img-polaroid' %></td>
+  	 <td> <%= image_tag guest_arr[3] ? "resized/#{guest_arr[3][1]}" : 'resized/default_avatar.jpg',class: 'img-polaroid' %></td>
+  </tr>
+  <tr>
+  	 <td> <strong><%= guest_arr[0] ? formatted_guest_list(guest_arr[0][0]) : 'It can be you!!' %><i class='icon-ok'></i></strong></td>
+  	 <td> <strong><%= guest_arr[1] ? formatted_guest_list(guest_arr[1][0]) : 'It can be you!!'%><i class='icon-ok'></i></strong></td>
+  	 <td> <strong><%= guest_arr[2] ? formatted_guest_list(guest_arr[2][0]) : 'It can be you!!'%><i class='icon-ok'></i></strong></td>
+  	 <td> <strong><%= guest_arr[3] ? formatted_guest_list(guest_arr[3][0]) : 'It can be you!!'%><i class='icon-ok'></i></td>
+  </tr>
+  <% end %>
+</table>
