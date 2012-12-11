@@ -1,6 +1,6 @@
 <h1> Our Guest List <i class='icon-star'></i></h1>
 <table class="table table-bordered">
-  <% for guest_arr in grouped_attendees %>
+  <% for guest_arr in @guests %>
   <tr>
   	 <td> <%= image_tag guest_arr[0] ? "resized/#{guest_arr[0][1]}" : 'resized/default_avatar.jpg' ,class: 'img-polaroid' %></td>
   	 <td> <%= image_tag guest_arr[1] ? "resized/#{guest_arr[1][1]}" : 'resized/default_avatar.jpg',class: 'img-polaroid' %></td>

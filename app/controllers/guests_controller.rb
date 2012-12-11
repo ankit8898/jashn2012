@@ -73,7 +73,7 @@ class GuestsController < ApplicationController
   end
   
   def list
-    @guests = Guest.in_groups
+   @guests = Guest.list
    render :layout => 'guest_list'
   end
   # DELETE /guests/1

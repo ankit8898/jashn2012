@@ -13,10 +13,6 @@ module GuestsHelper
       Guest.assign_name_and_avatar('original')
 	end
 
-	def grouped_attendees 
-      Guest.assign_name_and_avatar('resized').each_slice(4).to_a
-	end
-
 	def formatted_name name
 		['Awesome', 'Woahhh', 'Ahaaaaa..', 'Cool','Beautiful', 'Amazing','Alarming','Beware','Stupendous','Excellent'].sample + '...   ' + name.capitalize + " is Attending "
 	end
