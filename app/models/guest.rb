@@ -21,7 +21,7 @@ class Guest < ActiveRecord::Base
 			fd =  female_avatar_details ({female_avatars: female_avatars ,
 													hash: hsh ,
 												    data: data})
-			md + fd
+			(md + fd).shuffle
 		end
 
 		def list
