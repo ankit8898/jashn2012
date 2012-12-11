@@ -4,16 +4,26 @@
 	<%= @guest.errors.full_messages.first %> <i class='icon-off'></i>
 </div>
 <%end%>
-<%= f.text_field :name ,:size => 50,:placeholder => 'Name' %>
 
-<%= f.phone_field :cell_num ,:placeholder => 'Mobile No '%></br>
-<%= f.text_field :email_id ,:size => 50,:placeholder => 'Email' %> </br>
+<div class="input-prepend input-append">
+	<span class="add-on">N</span>
+	<%= f.text_field :name ,:size => 40,:placeholder => 'Name' %>
+</div>
+
+<div class="input-prepend input-append">
+	<span class="add-on"><i class='icon-signal'></i></span>
+	<%= f.phone_field :cell_num ,:placeholder => 'Mobile No '%>
+</div>
+<div class="input-prepend input-append">
+	<span class="add-on">@</span>
+	<%= f.text_field :email_id ,:size => 40,:placeholder => 'Email' %> 
+</div>
 
 <label class="radio inline">
 	<%= f.radio_button :sex, "male" %> Male
 </label>
 <label class="radio inline">
-  <%= f.radio_button :sex, "female"  %> Female
+	<%= f.radio_button :sex, "female"  %> Female
 </label>
 
 <label class="checkbox">
@@ -25,6 +35,6 @@
 <i id="example"  style="cursor: hand; cursor: pointer;"" rel="popover" data-content="We Highly recommend you to use Firefox or Chrome. " data-original-title="Browser Issues ?"class='icon-info-sign'></i>
 <% end %>
 <script type="text/javascript">
-$('#example').popover();
+	$('#example').popover();
 
 </script>
