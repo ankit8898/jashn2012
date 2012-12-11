@@ -39,7 +39,7 @@ class Guest < ActiveRecord::Base
 	 end
 
 	 def in_groups
-	 	grouped = all.each_slice(4).to_a
+	 	grouped = attending.each_slice(4).to_a
 
 	 end
      
