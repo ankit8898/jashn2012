@@ -26,6 +26,10 @@ module GuestsHelper
 		arr ? "resized/#{arr[1]}" : 'resized/default_avatar.jpg'
 	end
 
+	def formatted_count
+		Guest.attending.count.to_s + " Attending"
+	end
+
 	def guests_attending 
 		Guest.attending.pluck(:name)		
 	end
